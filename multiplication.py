@@ -1,7 +1,9 @@
+
+
 user_num = input("Enter a number to multiply\n")
+result = 0
 
-mult_max = 10
-
-for user_num in range(10):
-    print(user_num * mult_max)
+for i in range(10):
+    result = user_num * 1
+    print(result)
 
