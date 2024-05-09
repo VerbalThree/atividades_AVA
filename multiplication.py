@@ -1,9 +1,6 @@
+user_num = int(input("Enter a number to multiply:\n"))
+result = 1
 
-
-user_num = input("Enter a number to multiply\n")
-result = 0
-
-for i in range(10):
-    result = user_num * 1
-    print(result)
-
+for i in range(1, 11):
+    result = user_num * i
+    print(result) 
