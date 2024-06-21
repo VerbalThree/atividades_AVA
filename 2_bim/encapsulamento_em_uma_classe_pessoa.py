@@ -18,3 +18,6 @@ class Pessoa:
     @idade.setter # método set
     def idade(self, b):
         self._idade = b
+
+pessoa1 = Pessoa("João", 31)
+print("Nome: " Pessoa.nome)
