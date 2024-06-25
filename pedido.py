@@ -26,4 +26,3 @@ if pedido == 0:
     print(f"Valor Total: Grátis\nTaxa de Entrega: {total_taxa}\n")
 else:
     print(f"Valor Total: {pedido} reais.\nTaxa de Entrega: {total_taxa} reais.\n")
-
