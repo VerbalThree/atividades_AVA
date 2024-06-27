@@ -1,23 +1,16 @@
 class Pessoa:
     def __init__(self,nome,idade):
-        self._nome = nome
-        self._idade = idade
+        self.__nome = nome
+        self.__idade = idade
 
     @property # método get
     def nome(self):
-        return self._nome
+        return self.__nome
     
     @property # método get
     def idade(self):
-        return self._idade
+        return self.__idade
     
-    @nome.setter # método set
-    def nome(self, a):
-        self._nome = a
-
-    @idade.setter # método set
-    def idade(self, b):
-        self._idade = b
-
-pessoa1 = Pessoa("João", 31)
-print("Nome: " Pessoa.nome)
+pessoas = Pessoa("Rafael", 33)
+print(pessoas.nome)
+print(pessoas.idade)
