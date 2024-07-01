@@ -10,4 +10,5 @@ class Motocicleta(Veiculo):
     def acelerar(self):
         print("Motocicleta acelerando.")
 
-        
+car = Carro()
+print(car.acelerar)
