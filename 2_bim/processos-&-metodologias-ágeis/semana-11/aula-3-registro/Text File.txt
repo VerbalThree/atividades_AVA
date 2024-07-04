@@ -1,0 +1,3 @@
+Problemas de Acessibilidade: Existem diversos problemas de Acessibilidade neste aplicativo, sendo os piores: contraste de cores insuficiente, falte de suporte para leitores de tela e controles táteis não adaptáveis.
+
+É possível utilizarmos testes de usabilidade para a correção dos problemas citados, como por exemplo: avaliação heurística e testes com usuários reais.

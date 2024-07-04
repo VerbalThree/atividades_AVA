@@ -1,0 +1,13 @@
+TÍTULO: Relatório de Análise de Segurança - Ataque Cibernético a Sony Pictures em 2014
+
+INTRODUÇÃO: Descrição dos pontos mais citados no acidente.
+
+
+Detalhes do Ataque:
+
+    Para ganhar um acesso inicial, os hackers utilizaram um método chamado phishing, seguindo então uma exploração de vulnerabilidades de rede e sistemas desatualizados.
+    Muitos dados foram comprometidos, sendo informações pessoais de mais de 47 mil funcionários e atores,  e-mails confidenciais e informações sobre futuros filmes.
+    A medidas de segurança que a Sony tinha na época não eram robustas o suficiente, como por exemplo: uma falta de segmentação de rede adequada, ausência de autenticação de dois fatores e sistemas desatualizados sem patches de segurança recentes.
+    Havia muitas falhas na implementação de políticas de segurança básicas e na resposta a incidentes de segurança anteriores.
+    Sony poderia fazer testes de invasão regulares, podendo identificar vulnerabilidades exploradas no ataque.
+    Além de testes de invasão, Sony poderia fazer também testes de vulnerabilidades, tendo em mente a importância da varredura contínua para detectar e corrigir vulnerabilidades de software e rede.

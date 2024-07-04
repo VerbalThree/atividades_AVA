@@ -1,0 +1,7 @@
+Indústria: Gaming
+
+Aplicação de Casos de Uso: Podem ser utilizados para Representar a Relação entre o Consumidor, O Estúdio e a Plataforma Digital.
+
+Desafios Específicos: Uma relação decente entre Consumidor e Estúdio.
+
+Soluções Potenciais: Realizar um Diagrama de Casos de Uso.

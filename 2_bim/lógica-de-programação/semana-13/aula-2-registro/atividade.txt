@@ -1,0 +1,10 @@
+Descrição do Cenário Atual: Uma empresa de e-commerce tem um sistema que lida com várias solicitações de clientes. O sistema utiliza uma série de instruções if-elif-else para gerenciar essas tarefas, mantendo o código mais extenso e propenso a erros.
+
+Proposta de implementação do padrão SWITCH: Para melhorar a eficiência do código, propõe-se a implementação de um padrão SWITCH, utilizando funções e dicionários em Python.
+
+Vantagens dessa abordagem: Reduz a quantidade de linha do código, fazendo ele mais simples e fácil de entender.
+
+Aplicabilidade e a Eficiência do padrão SWITCH em diferentes contextos de negócios: Facilita a adição de novos casos sem alterar a estrutura do código.
+
+
+
