@@ -1,0 +1,14 @@
+print("Departamento de Desenvolvimento de Software: 1\nDepartamento de Marketing: 2\nDepartamento de Recursos Humanos: 3\nDepartamento de Pesquisa e Desenvolvimento (P&D): 4\n")
+
+equipamento = int(input("Digite o número do seu departamento: "))
+
+if equipamento == 1:
+    print("A recomendação de equipamento para o seu departamento são Laptops com alto desempenho.\n")
+elif equipamento == 2:
+    print("A recomendação de equipamento para o seu departamento são tablets para facilitar a apresentação e mobilidade.\n")
+elif equipamento == 3:
+    print("A recomendação de equipamento para o seu departamento são Computadores Desktop devido à sua estabilidade e custo-benefício.\n")
+elif equipamento == 4:
+    print("A recomendação de equipamento para o seu departamento são equipamentos com especificações de última geração.\n")
+else:
+    print("Departamento não identificado. Por favor tente novamente.\n")
