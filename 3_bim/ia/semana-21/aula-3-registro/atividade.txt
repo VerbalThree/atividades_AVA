@@ -1,0 +1,17 @@
+Controle e autonomia em IA
+
+    Esta atividade tem como objetivo envolver os grupos em um debate sobre os desafios e oportunidades relacionados ao controle e à autonomia na inteligência artificial.
+    Divida a turma em pequenos grupos de 3 a 4 alunos e peçam que realizem uma rápida pesquisa on-line para reunir informações e argumentos que apoiem suas posições no debate.
+    Enfatizem a responsabilidade dos desenvolvedores, usuários e sociedade em geral no controle e uso ético da inteligência artificial. Cada parte desempenha um papel na garantia de que a tecnologia seja usada para o bem comum.
+    Preparem uma apresentação clara e persuasiva para defender sua posição sobre quem deve ter o controle sobre as decisões tomadas pela inteligência artificial.
+
+Façam um resumo das discussões e registrem no AVA.
+
+/////////////////////////
+
+Atividade:
+
+Debate Principal: Controle versus autonomia em IA.
+Desafios e Oportunidades: Complexidade, responsabilidade, eficiência, inovação.
+Responsabilidade Compartilhada: Papel dos desenvolvedores, usuários e sociedade no controle da IA.
+Conclusão: Necessidade de um equilíbrio entre controle humano e autonomia da IA para garantir o uso ético e responsável da tecnologia.

@@ -1,0 +1,5 @@
+A resolução para esse problema seria o seguinte:
+
+1. Resolver o conflito entre as duas branches "feature-branch" e "bugfix-branch".
+2. Fazer um merge dessas duas branches para a branch principal.
+3. Fazer o commit e o push.

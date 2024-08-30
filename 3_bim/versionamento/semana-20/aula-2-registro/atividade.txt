@@ -1,0 +1,7 @@
+Como funciona um Sistema de Mensageria explicado por um adolescente de 16 anos
+
+Os sistemas de mensageria atuam como intermediáirios que facilitam a transferência de mensagens 
+entre diferentes sistemas ou componentes de softwares. Para entender melhor,
+leia essa analogia: em um restaurante, os garçons podem ser 
+os "consumidores" de mensagens (pedidos), a cozinha pode ser o "processador"
+dessas mensagens, e os clientes são os "produtores" de mensagens (pedidos).

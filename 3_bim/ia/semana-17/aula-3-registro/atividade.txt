@@ -1,0 +1,17 @@
+Explorando métricas em IA
+
+Siga o passo a passo e entregue a atividade no AVA:
+
+    Você foi aprovado para a próxima fase do processo seletivo de Analista de IA.
+    Nessa próxima fase, cada grupo recebe do gestor um cenário ou problema específico relacionado à IA (por exemplo, geração de texto, classificação de imagem).
+    Os grupos discutem e identificam quais métricas seriam mais relevantes para avaliar o desempenho ou a qualidade em seu cenário específico e, depois, cada grupo apresenta as métricas escolhidas e explica por que as consideram importantes para seu cenário.
+    A classe discute e compara as diferentes métricas propostas pelos grupos e, depois dessa discussão, cada participante registra um relatório na plataforma, destacando as principais conclusões e insights da atividade.
+
+
+1.
+
+2. Problema específico: Geração de Texto
+
+3. As métricas mais relevantes seriam a Revocação e Coerência
+
+4. As métricas propostas funcionam muito bem para um problema específico de geração de texto.

@@ -1,0 +1,5 @@
+A resolução para essa atividade é da seguinte maneira:
+
+1. Criar uma documentação para os passos de merge e da resolução de conflitos em cada arquivo.
+2. Fazer os testes de forma automática com workflows
+3. Criar um relatório com as resoluções e o uso de merge.

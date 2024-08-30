@@ -1,0 +1,9 @@
+Uma solução para resolver esse problema 
+é adotar outra forma de comunicação entre a empresa. 
+Mas sabendo que adotar outra forma de comunicação 
+pode demorar para ser adotada, outra solução seria 
+resolver o problema que está acontecendo ao enviar as mensagens. 
+Sabendo que a empresa utiliza e-mails internos para se comunicar, 
+começar a usar e-mails que não especialmente feitos 
+para a comunicação dentro da empresa poderia se tornar 
+uma solução para esse problema. 

@@ -1,0 +1,6 @@
+- Como podemos melhorar o gerenciamento de requisitos?
+
+O gerenciamento de requisitos é um processo fundamental na Engenharia de
+Requisitos e se concentra em uma gestão eficaz. Levando isso em consideração,
+uma comunicação eficaz e que não seja confusa com as partes interessadas é
+crucial para poder melhorar o gerenciamento de requisitos.

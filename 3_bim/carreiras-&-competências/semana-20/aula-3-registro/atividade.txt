@@ -1,0 +1,22 @@
+Você, um estudante do curso Técnico, está prestes a concluir seus estudos e recebeu um convite para um processo seletivo em uma empresa líder no setor.
+A empresa é reconhecida por excelência na sua área de estudos.
+Este é um momento crucial para demonstrar suas habilidades e seus conhecimentos, visando garantir esta oportunidade que pode ser o ponto de partida para a sua carreira na área.
+A empresa solicitou que você encaminhasse uma carta de apresentação por e-mail, juntamente com uma apresentação em vídeo, com duração máxima de 3 minutos.
+
+//////////
+
+Prezado(a) Michael Scott,
+
+Espero que esta mensagem o(a) encontre bem. Meu nome é Felipe Pereira Batista, e estou prestes a concluir meu curso técnico em Desenvolvimento de Sistemas. Recebi com grande entusiasmo o convite para participar do processo seletivo para a vaga de Técnico em Desenvolvimento de Sistemas na [Nome da Empresa].
+
+Estou particularmente interessado nesta oportunidade devido à reputação da [Nome da Empresa] como líder em excelência e inovação no setor de desenvolvimento de sistemas. Acredito que esta posição é uma excelente oportunidade para aplicar e expandir meus conhecimentos adquiridos ao longo do curso e em experiências práticas anteriores.
+
+Em anexo, envio um vídeo de apresentação com duração máxima de 3 minutos, no qual destaco minha formação acadêmica, experiências profissionais, resultados alcançados, competências desenvolvidas e meus objetivos profissionais. No vídeo, você encontrará um resumo claro de como minhas habilidades e experiências se alinham com as necessidades da sua equipe e como estou preparado para contribuir para o sucesso da [Nome da Empresa].
+
+Estou disponível para uma entrevista a qualquer momento que seja conveniente para você e estou ansioso para a oportunidade de discutir como posso trazer valor para sua equipe. Caso tenha qualquer dúvida ou precise de informações adicionais, não hesite em me contatar.
+
+Agradeço pela consideração e pelo tempo dedicado à revisão da minha candidatura.
+
+Atenciosamente,
+
+Felipe Pereira Batista

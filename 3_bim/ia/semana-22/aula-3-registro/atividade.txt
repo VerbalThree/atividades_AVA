@@ -1,0 +1,19 @@
+Design de chatbot para assistência educacional
+
+Desafio
+
+Você está passando por uma nova etapa de candidatura a uma nova posição no cargo de desenvolvedor.
+
+Objetivo
+
+Cada grupo deve escolher uma disciplina, como Matemática, História, Ciências etc. e identificar as principais funções que seu chatbot educacional deve desempenhar.
+
+Atividade
+
+Crie diálogos entre usuários e o chatbot que sirvam como exemplo. Considere uma variedade de perguntas e comandos que os usuários podem fazer em relação ao tópico escolhido.
+
+Entrega
+
+Cada grupo deve criar uma apresentação que responda a perguntas comuns, fornecer exemplos práticos, explicar conceitos complexos etc.
+
+Registre a apresentação na plataforma AVA.

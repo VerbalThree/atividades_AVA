@@ -1,0 +1,4 @@
+Proposta de Correção
+
+A correção mais viável para esse problema seria corrigir o conflito 
+que ocorre com o código, já que o  problema está no código.

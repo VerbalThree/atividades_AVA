@@ -1,0 +1,7 @@
+Para a resolução desse problema é necessário seguir as seguintes etapas:
+
+1. Verificar o DNS
+2. Fazer um teste de Resolução e Checar a Propagação do DNS
+3. Verificar a configuração do servidor Web
+4. Entrar em contato com o suporte do Provedor de DNS
+5. Comunicar a equipe

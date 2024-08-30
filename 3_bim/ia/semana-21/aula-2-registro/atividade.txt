@@ -1,0 +1,59 @@
+Viés em inteligência artificial
+
+Imagine um sistema de inteligência artificial desenvolvido para diagnosticar doenças com base em sintomas apresentados pelos pacientes. Este sistema foi treinado em um conjunto de dados que inclui informações de pacientes de determinadas regiões demográficas, predominantemente de áreas urbanas com acesso fácil a cuidados de saúde.
+
+Os algoritmos de IA podem apresentar vieses que afetam a precisão e a eficácia de seus resultados, a depender dos dados com os quais foram treinados. Esses vieses podem ter consequências significativas, especialmente quando utilizados em diferentes contextos que não foram considerados durante o desenvolvimento do sistema. Para entender melhor, iremos analisar um exemplo específico de como o viés pode impactar diagnósticos de saúde.
+
+Exemplo de viés no diagnóstico de saúde por IA:
+
+Suponha que uma equipe de saúde em uma região rural comece a utilizar este sistema de IA para auxiliar no diagnóstico de pacientes. Essa região possui características e condições de saúde que diferem significativamente das áreas urbanas em que os dados foram coletados originalmente. Por exemplo, os moradores rurais podem estar mais expostos a doenças relacionadas ao trabalho agrícola ou à falta de infraestrutura sanitária adequada, as quais não são tão prevalentes nas áreas urbanas.
+
+Consequências do viés:
+
+    Inexatidão nos diagnósticos.
+    Falha em identificar condições específicas da região.
+    Confiança excessiva na ferramenta.
+    Desigualdade no tratamento.
+
+Agora que você viu um exemplo de como o viés pode afetar diagnósticos de saúde, é importante entender que os algoritmos de IA podem apresentar vieses em diversos outros contextos. Ao estudar e discutir esses exemplos, você será capaz de identificar e mitigar os impactos negativos desses vieses.
+
+Instruções:
+
+    Formem grupos de estudo.
+    Cada grupo deve escolher um dos seguintes contextos (educação, justiça ou mídia social).
+    Identifiquem e descrevam possíveis vieses que um algoritmo pode ter neste contexto.
+    Discutam as consequências desses vieses e como eles podem impactar a sociedade.
+    Registrem os principais tópicos discutidos no Ambiente Virtual de Aprendizagem (AVA).
+
+///////////////
+
+Atividade:
+
+Contexto: Justiça
+
+Imagine um sistema de inteligência artificial utilizado para prever a probabilidade de reincidência criminal de um indivíduo, que auxilia juízes a tomarem decisões sobre liberdade condicional. Esse sistema foi treinado com dados históricos de processos criminais, que incluem informações demográficas, antecedentes criminais, e outros fatores socioeconômicos.
+Possíveis Vieses no Algoritmo:
+
+    Viés de Representatividade:
+        Descrição: Se os dados utilizados para treinar o algoritmo são predominantemente de uma certa demografia (por exemplo, homens jovens de áreas urbanas), o sistema pode ter dificuldades em generalizar corretamente para outras populações (por exemplo, mulheres mais velhas de áreas rurais).
+        Consequência: O sistema pode subestimar ou superestimar o risco de reincidência para grupos sub-representados, levando a decisões judiciais injustas.
+
+    Viés Histórico:
+        Descrição: Se o algoritmo é treinado com dados históricos que refletem disparidades raciais ou socioeconômicas no sistema de justiça (como maior punição para certos grupos étnicos), ele pode perpetuar essas desigualdades.
+        Consequência: O sistema pode recomendar penas mais severas para indivíduos de minorias, perpetuando o ciclo de injustiça.
+
+    Viés de Implementação:
+        Descrição: O modo como o sistema é utilizado pelos juízes pode introduzir viés. Por exemplo, se os juízes confiarem cegamente nas recomendações da IA sem considerar o contexto completo do caso.
+        Consequência: Decisões judiciais podem se tornar mais automatizadas e menos personalizadas, ignorando nuances importantes que poderiam influenciar o julgamento.
+
+Consequências para a Sociedade:
+
+    Desigualdade no Sistema de Justiça: A perpetuação de vieses históricos pode aumentar a desconfiança da sociedade no sistema judicial, especialmente entre grupos marginalizados.
+    Erosão da Justiça Individualizada: A dependência excessiva em algoritmos pode levar a um sistema de justiça que não considera adequadamente as circunstâncias individuais de cada caso.
+    Impacto na Reintegração Social: Decisões injustas, como negação de liberdade condicional com base em avaliações enviesadas, podem dificultar a reintegração de indivíduos à sociedade, aumentando as taxas de reincidência.
+
+Mitigação dos Vieses:
+
+    Diversificação dos Dados de Treinamento: Garantir que o dataset utilizado para treinar o algoritmo seja representativo de todas as demografias relevantes.
+    Auditoria Contínua: Implementar auditorias regulares para identificar e corrigir qualquer viés que possa surgir nos algoritmos utilizados.
+    Transparência e Explicabilidade: Assegurar que as decisões tomadas pelo sistema de IA sejam transparentes e que os juízes compreendam como as recomendações foram feitas, permitindo-lhes contestar ou complementar as sugestões da IA.

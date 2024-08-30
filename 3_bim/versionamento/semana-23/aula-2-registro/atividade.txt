@@ -1,0 +1,9 @@
+Gostaria de informar que as medidas de segurança para as filas do Amazon SQS utilizadas em suas transações financeiras foram implementadas com sucesso. Asseguramos que:
+
+1. Somente equipes e serviços autorizados têm acesso às mensagens críticas.
+2. Políticas de IAM foram configuradas seguindo o princípio de menor privilégio.
+3. A criptografia foi ativada tanto para dados em trânsito quanto em repouso, utilizando AWS KMS.
+
+Por favor, veja o relatório anexo para mais detalhes sobre as políticas e configurações implementadas.
+
+Estou à disposição para quaisquer dúvidas ou ajustes que sejam necessários.

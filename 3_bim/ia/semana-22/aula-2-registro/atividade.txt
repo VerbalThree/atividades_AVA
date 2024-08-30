@@ -1,0 +1,21 @@
+Design de jogo com narrativa dinâmica
+
+Desafio
+
+Você está passando por uma nova etapa de candidatura a uma nova posição no cargo de desenvolvedor de games.
+
+Cada grupo deve escolher um conceito de jogo. Decida o gênero do jogo, o ambiente, os personagens e o objetivo principal.
+
+Objetivo
+
+Identifique os pontos importantes na história em que as escolhas do jogador teriam um impacto significativo. Esses pontos podem incluir decisões morais, escolhas estratégicas ou caminhos alternativos.
+
+Atividade
+
+Com base nos pontos de decisão, os grupos devem desenvolver narrativas dinâmicas que se ramificam conforme as escolhas do jogador. Crie diferentes desdobramentos, finais alternativos e consequências para cada escolha.
+
+Entrega
+
+Cada grupo deve criar um protótipo de diálogo para uma cena-chave do jogo, demonstrando como a narrativa dinâmica se desenrola com base nas escolhas do jogador.
+
+Monte uma apresentação em PPT e envie através da plataforma AVA.

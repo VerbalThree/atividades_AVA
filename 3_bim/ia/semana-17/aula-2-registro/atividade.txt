@@ -1,0 +1,20 @@
+Treinamento de novos colaboradores
+
+Em grupo, considere a seguinte situação fictícia, responda as perguntas e entregue no AVA.
+
+Um laboratório de pesquisa está desenvolvendo um modelo de aprendizado de máquina generativo para criar arte abstrata. Ele está utilizando uma rede neural generativa adversarial (GAN) para gerar imagens de arte abstrata com base em um conjunto de dados de pinturas famosas. No entanto, ele está enfrentando desafios na configuração do modelo e na avaliação da qualidade das saídas geradas. Foram propostas as seguintes perguntas para os novos colaboradores resolverem:
+
+Situação fictícia elaborada especialmente para o curso.
+
+    Quais são os hiperparâmetros comuns e por que são importantes?
+    Como a arquitetura do modelo pode afetar a qualidade das saídas geradas?
+    Por que a escolha da função de perda é crucial para o treinamento de modelos generativos?
+    Quais métricas são usadas para avaliar a qualidade das saídas geradas por modelos generativos?
+
+
+
+1. Os hiperparâmetros mais comuns são Learning Rate e Learning Rate Decay. Esses hiperparâmetros são importantes pois eles ajudam a manter atualizado a taxa de estimativas e mantém uma redução gradual na taxa de aprendizado ao longo do tempo para acelerar o aprendizado.
+2. A arquitetura pode afetar em relação ao desempenho, escalabilidade e flexibilidade.
+3. Elas oferecem uma métrica para avaliar o desempenho do modelo, quantificando a diferença entre as previsões e os resultados reais.
+4. As métricas usadas para avaliar a qualidade das saídas geradas são RMSE (Erro Quadrático Médio) e AUC-ROC.
+

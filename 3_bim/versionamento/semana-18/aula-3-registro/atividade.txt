@@ -1,0 +1,4 @@
+Sabendo que o problema está nos servidores, 
+a solução mais viável para esse problema 
+seria "melhorar" os servidores e logo depois 
+fazer um teste de desempenho para  averiguar se ainda precisa de melhorias.

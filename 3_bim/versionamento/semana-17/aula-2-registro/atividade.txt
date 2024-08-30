@@ -1,0 +1,5 @@
+A resolução dessa atividade é da seguinte maneira:
+
+1. Criar um email para comunicar as alterações um com o outro.
+2. Criar os registros do processo de resolução do conflito, incluindo a análise, as etapas de resolução e o uso da ferramenta de merge.
+3. Criar um relatório sobre os processos feitos.
