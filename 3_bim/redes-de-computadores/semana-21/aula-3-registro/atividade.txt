@@ -1,0 +1,18 @@
+Descrição da Empresa Fictícia: A empresa "TechConnect" oferece um aplicativo de rede social para profissionais de tecnologia trocarem conhecimentos e oportunidades de trabalho. O público-alvo são desenvolvedores, engenheiros e especialistas da área tech. Funcionalidades incluem chat, fórum, e recomendações de vagas baseadas em perfil.
+
+Identificação de Dados Pessoais: A empresa coleta nomes, e-mails, endereços, dados profissionais (como currículos), e dados de pagamento para serviços premium.
+
+Finalidades e Bases Legais:
+
+    Nome e e-mail: Usados para cadastro e comunicação (base legal: execução de contrato).
+    Endereço: Necessário para emissão de notas fiscais (base legal: obrigação legal).
+    Dados profissionais: Utilizados para recomendações de vagas (base legal: consentimento).
+    Dados de pagamento: Processamento de assinaturas (base legal: execução de contrato).
+
+Direitos dos Titulares: O usuário tem direito de acessar, corrigir, excluir, opor-se ao tratamento e solicitar a portabilidade dos dados, conforme estabelecido pela LGPD.
+
+Medidas de Segurança: Criptografia de dados sensíveis, controle de acesso baseado em funções, e políticas de retenção de dados garantem a proteção das informações.
+
+Comunicação e Notificações: Qualquer alteração nos termos de uso será comunicada via e-mail, e notificações sobre incidentes de segurança serão feitas imediatamente após a identificação.
+
+Redação dos Termos de Uso: Os termos serão claros e acessíveis, detalhando os direitos dos usuários, a finalidade do tratamento dos dados e os mecanismos de proteção.

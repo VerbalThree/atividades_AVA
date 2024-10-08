@@ -1,0 +1,10 @@
+É possível nós criarmos esses produtos com o polimorfismo da seguinte maneira:
+
+
+
+
+1º Passo - Criarmos uma classe base contendo nome e preço para cada tipo de produto que a empresa vai ter.
+
+2º Passo - Criar as subclasses de cada produto baseada na classe base, que deve ter os seus respectivos dados. 
+
+3º Passo - Criar os produtos utilizando as subclasses, se enquadrando aqui o polimorfismo.

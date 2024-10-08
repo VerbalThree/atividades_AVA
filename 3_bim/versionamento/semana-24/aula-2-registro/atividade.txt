@@ -1,0 +1,57 @@
+Os códigos a seguir funcionam como esperado:
+
+--- Produtor:
+
+import pika 
+
+# Cria uma conexão bloqueante com o RabbitMQ na máquina local
+connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+
+# Abre um cananl na conexão para enviar e receber mensagens
+channel = connection.channel()
+
+# Assegura que a fila 'hello' existe antes de enviar mensagens
+channel.queue_declare(queue='hello')
+
+# Usa a troca padrão do RabbitMQ
+channel.basic_publish(exchange="my_exchange",
+routing_key='hello',  # Especifica a chave de roteamento (nome da fila) para onde a mensagem será enviada
+body='Olá, Mundo!')
+
+# Exibe uma confirmação no console de que a mensagem foi enviada
+print(" [x] Enviada 'Olá, Mundo!'")
+
+# Fecha a conexão com o servidor RabbitMQR
+connection.close()
+
+--- Consumidor:
+
+import pika
+
+# Define a função de callback para processar mensagens recebidas
+def callback(ch, method, properties, body):
+
+	# Imprime a mensagem recebida
+	print(f" [x] Recebida {body}")
+
+# Cria uma conexão bloqueante com o RabbitMQ na máquina local
+connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+
+# Abre um canal na conexão
+channel = connection.channel()
+
+# Assegura que a fila 'hello' existe
+channel.queue_delcare(queue='hello')
+
+# Especifica a fila de onde as mensagens serão consumidas
+channel.basic_consume(queue='hello',
+				 on_message_callback=callback, # Define a função de callback que é chamda com cada mensagem recebida
+
+				  # HAbilita a confirmação automática de que a mensagem foi processada
+				 auto_ack=True)
+
+# Informa ao usuário que o consuimdor está pronto e esperando mensagens 
+print(' [*] Esperando por mensagens. Pra sair pressione CTRL+C')
+
+# Inicia o consumo de mensagens, entrando em um loop que espera por mensagens
+channel.start_consuming()

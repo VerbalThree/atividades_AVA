@@ -1,0 +1,26 @@
+Resposta gerada pelo ChatGPT: xperimento: Customização de Respostas para a Empresa Zix
+
+Objetivo: Criar e testar instruções personalizadas para o ChatGPT, que permitam à empresa Zix obter respostas detalhadas e específicas sobre problemas técnicos em seus produtos de software.
+1. Instrução Personalizada
+
+Exemplo de Instrução para o ChatGPT:
+
+    "Quando um cliente da Zix reportar um problema técnico, forneça uma resposta estruturada com as seguintes seções: Descrição do Problema, Causa Provável, Passos para Solução e Sugestão de Prevenção. Use linguagem técnica apropriada ao nível do cliente (básico, intermediário ou avançado)."
+
+2. Teste com Cenário
+
+Problema Técnico: Um cliente relata que o software da Zix está demorando muito para carregar após uma atualização.
+
+Resposta Gerada com Instrução:
+
+    Descrição do Problema: O software está apresentando lentidão ao carregar após a instalação da última atualização.
+    Causa Provável: Isso pode ser causado por arquivos de cache desatualizados ou processos em segundo plano do sistema que estão sobrecarregando os recursos.
+    Passos para Solução:
+        Reinicie o sistema para encerrar processos em segundo plano.
+        Limpe o cache do software nas configurações.
+        Verifique se a atualização foi instalada corretamente, e se necessário, reinstale.
+    Sugestão de Prevenção: Configure o software para limpar o cache automaticamente após atualizações, ou faça atualizações durante horários de menor uso.
+
+3. Conclusão
+
+Esse formato personalizado oferece respostas técnicas claras e adaptadas às necessidades do cliente, melhorando a eficiência no suporte e a satisfação do usuário.

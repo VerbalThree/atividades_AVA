@@ -1,0 +1,17 @@
+O código a seguir funciona como esperado:
+
+import pika 
+
+# Substitua 'localhost' pelo endereço do servidor RabbitMQ, se necessário
+connection_parameters = pika.ConnectionParameters('localhost')
+
+try:
+    connection = pika.BlockingConnection(connection_parameters)
+    print("Conexão com o RabbitMQ estabelecida com sucesso!")
+except Exception as e:
+    print("Erro ao conectar com o RabbitMQ:", e)
+
+# Fechando a conexão
+finally:
+	if connection and not connection.is_closed:
+		connection.close()

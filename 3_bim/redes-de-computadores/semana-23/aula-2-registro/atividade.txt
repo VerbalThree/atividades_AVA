@@ -1,0 +1,30 @@
+--- Contexto da atividade:
+
+Certificação da empresa XYZ
+
+A XYZ é uma empresa de médio porte no setor de serviços financeiros, especializada em processamento de pagamentos on-line. Diante da crescente preocupação com a segurança da informação e a necessidade de demonstrar conformidade com os padrões reconhecidos internacionalmente, ela decidiu buscar a certificação ISO 27001.
+
+Situação fictícia elaborada especialmente para o curso.
+
+Antes de iniciar o processo de certificação, a empresa XYZ enfrentou diversos desafios relacionados à segurança da informação. Foram identificadas:
+
+    Lacunas em seus controles de segurança existentes, como políticas de acesso inconsistentes;
+    Falta de monitoramento proativo de ameaças e vulnerabilidades não tratadas em seus sistemas.
+
+Quais seriam os primeiros passos para resolver essas lacunas?
+
+Elabore uma apresentação no ppt. com esses passos e envie ao Ambiente Virtual de Aprendizagem – AVA.
+
+--- Atividade:
+
+Primeiros Passos para Resolver Lacunas de Segurança (NoLeaks - ISO 27001)
+
+    Políticas de Acesso: Criar e padronizar regras claras de controle de acesso, limitando permissões a dados críticos apenas a pessoas autorizadas.
+
+    Monitoramento Proativo: Implementar ferramentas de detecção de ameaças e realizar auditorias regulares para identificar e mitigar riscos de forma antecipada.
+
+    Gestão de Vulnerabilidades: Estabelecer um processo contínuo de avaliação e correção de vulnerabilidades nos sistemas.
+
+    Treinamento: Realizar treinamentos de conscientização em segurança da informação para todos os colaboradores.
+
+    Auditorias Internas: Executar auditorias periódicas para garantir a conformidade com as normas ISO 27001.

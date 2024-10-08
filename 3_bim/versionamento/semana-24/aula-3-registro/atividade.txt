@@ -1,0 +1,39 @@
+O código a seguir funciona corforme o esprado:
+
+--- Produtor:
+
+import pika  # Importa a biblioteca pika para interagir com RabbitMQ.
+
+connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))  # Estabelece uma conexão bloqueante com o RabbitMQ rodando localmente.
+channel = connection.channel()  # Cria um canal sobre a conexão estabelecida.
+
+channel.exchange_declare(exchange='topic_logs', exchange_type='topic')  # Declara uma troca do tipo 'topic' chamada 'topic_logs'.
+
+routing_key = 'mensagem.rápida'  # Define a chave de roteamento para a mensagem a ser enviada.
+message = 'Uma mensagem rápida!'  # Define a mensagem a ser enviada.
+channel.basic_publish(exchange='topic_logs', routing_key=routing_key, body=message)  # Publica a mensagem na troca com a chave de roteamento especificada.
+
+print(f" [x] Enviada {routing_key}:{message}")  # Imprime no console a mensagem enviada.
+connection.close()  # Fecha a conexão com o RabbitMQ.
+
+--- Consumidor:
+
+import pika  # Importa a biblioteca pika para interagir com RabbitMQ.
+
+def callback(ch, method, properties, body):  # Define a função de callback que será chamada ao receber mensagens.
+    print(f" [x] {method.routing_key}:{body}")  # Imprime a chave de roteamento e a mensagem recebida.
+
+connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))  # Estabelece uma conexão bloqueante com o RabbitMQ rodando localmente.
+channel = connection.channel()  # Cria um canal sobre a conexão.
+
+channel.exchange_declare(exchange='topic_logs', exchange_type='topic')  # Declara novamente a troca do tipo 'topic' chamada 'topic_logs'.
+result = channel.queue_declare('', exclusive=True)  # Declara uma fila exclusiva e temporária.
+queue_name = result.method.queue  # Obtém o nome da fila gerado pelo servidor.
+
+binding_key = 'mensagem.#'  # Define a chave de ligação para a fila, ouvindo todas as mensagens que começam com 'mensagem.'.
+channel.queue_bind(exchange='topic_logs', queue=queue_name, routing_key=binding_key)  # Liga a fila à troca com a chave de ligação especificada.
+
+channel.basic_consume(queue=queue_name, on_message_callback=callback, auto_ack=True)  # Configura o consumo da fila, registrando a função de callback e habilitando a confirmação automática de mensagens.
+
+print(' [*] Esperando por mensagens. Para sair pressione CTRL+C')  # Imprime no console que o consumidor está pronto para receber mensagens.
+channel.start_consuming()  # Inicia o loop de consumo de mensagens.

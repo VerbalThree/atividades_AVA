@@ -1,0 +1,33 @@
+Contexto da atividade:
+
+Mapeamento de dados pessoais com enfoque na LGPD
+
+IDENTIFICAR E LISTAR DADOS PESSOAIS
+
+Identificar os tipos de dados pessoais que a sua área coleta e processa. Exemplos: nomes, endereços, números de telefone, e-mails, históricos de compras, dados de currículos.
+
+MAPEAR FONTES DE DADOS
+
+Mapear de onde os dados são coletados (ex.: formulários on-line, interações com clientes) e descrever o fluxo desses dados dentro da sua área e para outras áreas da empresa.
+
+DETERMINAR A FINALIDADE E BASE LEGAL
+
+Para cada tipo de dado identificado, definir a finalidade específica para sua coleta e tratamento.
+
+Identificar a base legal que justifica o tratamento desses dados (consentimento, cumprimento de obrigação legal, execução de contrato etc.).
+
+AVALIAR RISCOS E MEDIDAS DE PROTEÇÃO
+
+Avaliar riscos associados ao tratamento dos dados identificados e propor medidas de proteção adequadas para mitigar esses riscos (controles técnicos e administrativos).
+
+Atividade:
+
+Mapeamento de Dados Pessoais na LGPD
+
+    Dados Coletados: Identifique dados como nomes, e-mails, telefones, endereços, históricos de compras, e dados profissionais.
+
+    Fontes de Dados: Mapear onde os dados são coletados (ex.: formulários, CRM) e como são compartilhados dentro da empresa.
+
+    Finalidade e Base Legal: Defina o objetivo de coleta (ex.: marketing, contrato) e associe à base legal (consentimento, obrigação legal).
+
+    Riscos e Proteção: Identifique riscos (ex.: vazamento) e aplique medidas de proteção (ex.: criptografia, políticas internas).

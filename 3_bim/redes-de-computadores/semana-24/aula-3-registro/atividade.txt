@@ -1,0 +1,35 @@
+--- Contexto da atividade:
+
+Objetivos
+Levar os alunos a compreenderem os diferentes tipos de nuvem e desenvolverem habilidades na elaboração de planos de migração de infraestrutura de TI.
+
+Descrição do exercício
+A Empresa XYZ é uma empresa de médio porte no setor de serviços financeiros que oferece soluções de gerenciamento de investimentos para clientes em todo o mundo. Com uma base de clientes crescente e uma infraestrutura de TI legada, a Empresa XYZ busca migrar sua infraestrutura para a nuvem com o objetivo de melhorar a flexibilidade, a escalabilidade e a eficiência operacional.
+
+Objetivos da migração
+Melhorar a flexibilidade e a escalabilidade da infraestrutura de TI;
+Aumentar a segurança e a conformidade com regulamentações do setor;
+Facilitar a implementação de novos serviços e aplicativos para atender às necessidades dos clientes.
+
+Com base nesses requisitos e objetivos, a Empresa XYZ buscando encontrar uma solução em nuvem que ofereça alto desempenho, segurança robusta, custos acessíveis e conformidade com as regulamentações do setor.
+
+Qual tipo de nuvem (pública, privada ou híbrida) seria mais adequada para atender às necessidades da empresa?
+
+--- Atividade:
+
+Nuvem Híbrida
+
+1. Flexibilidade e Escalabilidade:
+
+    Nuvem Pública: Oferece escalabilidade e flexibilidade para cargas de trabalho variáveis e crescimento rápido.
+    Nuvem Privada: Permite controle e personalização para cargas de trabalho críticas.
+
+2. Segurança e Conformidade:
+
+    Nuvem Privada: Fornece um ambiente mais controlado e seguro, ideal para dados sensíveis e regulados.
+    Nuvem Pública: Pode oferecer ferramentas e certificações para conformidade, mas o controle é menor comparado à nuvem privada.
+
+3. Custo e Desempenho:
+
+    Nuvem Pública: Pode ser mais econômica para escalabilidade e serviços que não exigem alta segurança.
+    Nuvem Privada: Maior investimento inicial e custos operacionais, mas ideal para dados críticos e conformidade.

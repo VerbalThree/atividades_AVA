@@ -1,0 +1,46 @@
+--- Contexto da atividade:
+
+Estamos com um grave incidente de segurança
+
+Considere a seguinte situação: na última sexta-feira à noite, os sistemas de uma empresa foram comprometidos por um ataque de ransomware, resultando na criptografia de dados críticos e na interrupção das operações de negócios.
+
+Ativos afetados:
+
+    Servidores de armazenamento em nuvem.
+    Banco de dados de clientes.
+    Sistemas de backup.
+
+Impactos identificados
+
+    Inacessibilidade aos dados dos clientes.
+    Interrupção dos serviços de armazenamento em nuvem.
+    Potencial violação de dados e comprometimento da privacidade dos clientes.
+    Perdas financeiras devido à interrupção das operações e demandas de resgate.
+
+Agora, respondam em formato de e-mail e enviem no AVA a resposta à seguinte questão:
+
+    Quais seriam as ameaças e vulnerabilidade que poderiam ser identificadas?
+
+--- Atividade:
+
+Prezados,
+
+Segue a análise preliminar sobre as ameaças e vulnerabilidades identificadas no incidente de ransomware que afetou nossos sistemas:
+
+Ameaças Identificadas:
+
+    Ransomware: Software malicioso que criptografa dados críticos e exige pagamento para a liberação.
+    Comprometimento de dados: Potencial violação dos dados de clientes, resultando em exposição de informações sensíveis.
+    Interrupção Operacional: A paralisação dos sistemas afeta diretamente a continuidade dos serviços e gera perdas financeiras significativas.
+
+Vulnerabilidades Potenciais:
+
+    Backup Inadequado: A criptografia dos sistemas de backup sugere que as rotinas de segurança podem não estar isoladas ou protegidas corretamente.
+    Falta de Segmentação de Rede: A contaminação de múltiplos ativos (servidores de nuvem e banco de dados) indica uma falha na segmentação, permitindo o acesso malicioso a sistemas críticos.
+    Sistemas Desatualizados: Eventuais falhas de atualização ou manutenção podem ter facilitado a exploração de brechas de segurança.
+
+Essas ameaças e vulnerabilidades precisarão ser tratadas com urgência para mitigar os danos e prevenir incidentes futuros.
+
+Atenciosamente,
+Lázaro
+Equipe de Segurança da Informação

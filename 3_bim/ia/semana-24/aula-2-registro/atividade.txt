@@ -1,0 +1,37 @@
+Prompt utilizado no ChatGPT: "Procedimento experimental: 
+A Alpha Systems está com um pedido onde você e seu grupo deverão escolher uma das seguintes tarefas:
+Gerar um anúncio publicitário para um produto específico;
+Criar um plano de marketing para uma empresa;
+Desenvolver um novo produto ou serviço." Faça essa atividade de forma resumida.
+
+Resposta gerada: 
+Plano de Marketing Resumido para Alpha Systems:
+
+    Análise de Mercado:
+        Público-alvo: Proprietários de casas, empresas pequenas e médias, e consumidores conscientes com foco em sustentabilidade.
+        Concorrência: Empresas de tecnologia sustentável como Tesla Solar, LG Energy Solutions.
+
+    Objetivos:
+        Aumentar a presença digital em 20% no primeiro semestre.
+        Elevar as vendas do novo painel solar portátil em 15% nos próximos 6 meses.
+
+    Estratégias de Marketing:
+        Marketing Digital:
+            Campanhas de anúncios no Google Ads e redes sociais (Facebook, Instagram, LinkedIn) focando em consumidores interessados em energia sustentável.
+            Produção de conteúdos sobre sustentabilidade e eficiência energética em blogs e vídeos.
+            Parcerias com influenciadores no segmento de tecnologia verde.
+        E-mail Marketing:
+            Envio de newsletters com descontos exclusivos para novos clientes.
+        Promoções e Incentivos:
+            Oferta de pacotes especiais para empresas que compram em grande escala.
+            Descontos sazonais em eventos como o Dia Mundial da Terra.
+
+    Orçamento:
+        Investimento inicial em marketing digital: R$ 100.000 para campanhas e produção de conteúdo.
+        R$ 50.000 para promoções e parcerias.
+
+    Medição e Avaliação:
+        Monitoramento de KPIs (cliques, conversões, crescimento de seguidores, vendas) mensalmente.
+        Ajustes nas campanhas conforme desempenho.
+
+Análise dos dados: É possível concluirmos que o ChatGPT consegue sim nos ajudar com as nossas atividades com o prompt correto. Porém, dependendo do prompt, o ChatGPT não gera a resposta desejada.
