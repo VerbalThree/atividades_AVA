@@ -1,0 +1,31 @@
+const jwt = require('jsonwebtoken');
+
+const secretKey = 'chave_secreta';
+
+// Função para gerar o token
+function generateToken(userId) {
+  const payload = { userId };
+  const options = { expiresIn: '1h' }; // Token expira em 1 hora
+  return jwt.sign(payload, secretKey, options);
+}
+
+// Função para validar o token
+function validateToken(token) {
+  try {
+    const decoded = jwt.verify(token, secretKey);
+    return decoded;
+  } catch (error) {
+    return null; // Token inválido
+  }
+}
+
+// Exemplo de uso
+const newToken = generateToken(123);
+const decodedToken = validateToken(newToken);
+
+if (decodedToken) {
+  console.log('Token válido:', decodedToken);
+  // Verificar as permissões do usuário
+} else {
+  console.log('Token inválido');
+}
