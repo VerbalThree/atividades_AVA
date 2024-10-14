@@ -1,0 +1,16 @@
+import boto3
+
+# Cria um cliente SQS e KMS
+sqs = boto3.client('sqs')
+kms = boto3.client('kms')
+
+# Cria uma chave KMS
+response = kms.create_key(Policy='sua_política_kms')
+key_id = response['KeyMetadata']['KeyId']
+
+# Cria uma fila SQS com criptografia
+queue_url = sqs.create_queue(QueueName='my_secure_queue',
+                            Attributes={'KmsMasterKeyId': key_id}).get('QueueUrl')
+
+# Envia uma mensagem criptografada
+sqs.send_message(QueueUrl=queue_url, MessageBody='mensagem secreta')

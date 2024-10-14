@@ -1,0 +1,14 @@
+Assunto: Relatório de Implementação de Medidas de Segurança no Kafka
+
+Prezados,
+
+Informamos que as medidas de segurança para o ambiente Kafka foram implementadas com sucesso. As ações realizadas incluem: Criptografia, Backup e Recuperação, Monitoramento e Alerta, Gestão de Acessos & Autenticação e Autorização.
+
+Com essas medidas, garantimos um nível mais elevado de segurança para os dados processados no Kafka, mitigando os riscos de vazamento de informações e acesso não autorizado.
+
+Continuaremos monitorando o ambiente de forma proativa e realizando ajustes conforme necessário para manter a segurança dos nossos dados.
+
+Atenciosamente,
+
+Widowmaker,
+CTO

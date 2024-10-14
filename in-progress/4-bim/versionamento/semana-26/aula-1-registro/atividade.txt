@@ -1,0 +1,19 @@
+import boto3
+
+# Substitua por suas credenciais
+aws_access_key_id = 'YOUR_ACCESS_KEY'
+aws_secret_access_key = 'YOUR_SECRET_KEY'
+
+# Cria um cliente SQS
+sqs = boto3.client('sqs', region_name='us-east-1',
+                   aws_access_key_id=aws_access_key_id,
+                   aws_secret_access_key=aws_secret_access_key)
+
+# Cria as filas
+queue_url_standard = sqs.create_queue(QueueName='my_standard_queue').get('QueueUrl')
+queue_url_fifo = sqs.create_queue(QueueName='my_fifo_queue', Attributes={'FifoQueue': 'true'}).get('QueueUrl')
+
+# Envia mensagens
+for i in range(10):
+    sqs.send_message(QueueUrl=queue_url_standard, MessageBody=str(i))
+    sqs.send_message(QueueUrl=queue_url_fifo, MessageBody=str(i), MessageGroupId='my_group')
