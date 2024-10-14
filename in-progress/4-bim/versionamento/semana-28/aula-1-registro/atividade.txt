@@ -1,0 +1,20 @@
+from kafka import KafkaProducer, KafkaConsumer, TopicPartition
+
+# Configuração do produtor e consumidor
+producer = KafkaProducer(bootstrap_servers='localhost:9092')
+consumer = KafkaConsumer(bootstrap_servers='localhost:9092', group_id='my_group')
+
+# Criar um tópico com 4 partições
+admin_client = KafkaAdminClient(bootstrap_servers='localhost:9092')
+new_topic = NewTopic(name="my_topic", num_partitions=4, replication_factor=1)
+admin_client.create_topics([new_topic])
+
+# Produzir mensagens
+for i in range(10):
+    producer.send('my_topic', key=str(i % 4).encode('utf-8'), value=str(i).encode('utf-8'))
+
+# Consumir mensagens de cada partição
+for i in range(4):
+    consumer.assign([TopicPartition('my_topic', i)])
+    for message in consumer:
+        print(message.value.decode('utf-8'))

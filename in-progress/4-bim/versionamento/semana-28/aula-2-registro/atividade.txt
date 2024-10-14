@@ -1,0 +1,27 @@
+from kafka import KafkaProducer, KafkaConsumer, TopicPartition
+from kafka.admin import KafkaAdminClient, NewTopic
+
+# Configurações
+bootstrap_servers = 'localhost:9092'  
+topic_name = 'my_topic'
+replication_factor = 3
+
+# Criar tópico com replicação
+admin_client = KafkaAdminClient(bootstrap_servers=bootstrap_servers)
+new_topic = NewTopic(name=topic_name, num_partitions=1, replication_factor=replication_factor)
+admin_client.create_topics([new_topic])
+
+# Produtor com garantia de entrega 'all'
+producer = KafkaProducer(bootstrap_servers=bootstrap_servers, acks='all')
+
+# Produzir mensagens
+for i in range(10):
+    producer.send(topic_name, key=str(i).encode('utf-8'), value=str(i).encode('utf-8'))
+
+# Consumidor
+consumer = KafkaConsumer(bootstrap_servers=bootstrap_servers, group_id='my_group')
+consumer.subscribe([topic_name])
+
+# Consumir mensagens
+for message in consumer:
+    print(message.value.decode('utf-8'))

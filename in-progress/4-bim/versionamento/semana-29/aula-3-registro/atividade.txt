@@ -1,0 +1,42 @@
+import pika
+import boto3
+from kafka import KafkaProducer, KafkaConsumer
+import time
+
+# Função para gerar uma mensagem (simplificada)
+def generate_message():
+    return "Alerta de saúde! Batimentos cardíacos acelerados."
+
+# RabbitMQ
+def send_to_rabbitmq(message):
+    # ... (código para enviar mensagem para o RabbitMQ)
+
+# SQS
+def send_to_sqs(message):
+    # ... (código para enviar mensagem para o SQS)
+
+# Kafka
+def send_to_kafka(message):
+    # ... (código para enviar mensagem para o Kafka)
+
+# Simular falhas e verificar resultados
+def simulate_failure(system):
+    # Interromper o programa por alguns segundos
+    print(f"Simulando falha no sistema {system}")
+    time.sleep(5)
+    print(f"Reiniciando o sistema {system}")
+
+# Loop principal
+while True:
+    message = generate_message()
+    send_to_rabbitmq(message)
+    send_to_sqs(message)
+    send_to_kafka(message)
+
+    # Simular uma falha a cada 10 iterações
+    if i % 10 == 0:
+        simulate_failure("RabbitMQ")
+        simulate_failure("SQS")
+        simulate_failure("Kafka")
+
+    time.sleep(1)
