@@ -1,0 +1,12 @@
+import boto3
+
+# Cria um cliente SQS e CloudWatch
+sqs = boto3.client('sqs')
+cloudwatch = boto3.client('cloudwatch')
+
+# Cria uma fila SQS
+queue_url = sqs.create_queue(QueueName='my_queue').get('QueueUrl')
+
+# Envia mensagens para a fila
+for i in range(10):
+    sqs.send_message(QueueUrl=queue_url, MessageBody=str(i))

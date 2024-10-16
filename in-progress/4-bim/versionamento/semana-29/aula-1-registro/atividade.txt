@@ -1,0 +1,71 @@
+import pika
+import boto3
+from kafka import KafkaProducer, KafkaConsumer
+
+# Função para gerar mensagens (simplificada)
+def generate_message():
+    return "Esta é uma mensagem de teste"
+
+# RabbitMQ
+def send_to_rabbitmq(message):
+    connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+    channel = connection.channel()
+    channel.queue_declare(queue='hello')
+    channel.basic_publish(exchange='', routing_key='hello', body=message)
+    connection.close()
+
+def receive_from_rabbitmq():
+    connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+    channel = connection.channel()
+    channel.queue_declare(queue='hello')
+
+    def callback(ch, method, properties, body):
+        print(" [x] Received %r" % body)
+
+    channel.basic_consume(queue='hello', on_message_callback=callback, auto_ack=True)
+
+    print(' [*] Waiting for messages. To exit press CTRL+C')
+    channel.start_consuming()
+
+# SQS
+def send_to_sqs(message):
+    sqs = boto3.client('sqs')
+    queue_url = 'https://your-queue-url'  # Substitua pela sua URL da fila
+    response = sqs.send_message(
+        QueueUrl=queue_url,
+        MessageBody=message
+    )
+
+def receive_from_sqs():
+    sqs = boto3.client('sqs')
+    queue_url = 'https://your-queue-url'
+    response = sqs.receive_message(
+        QueueUrl=queue_url,
+        MaxNumberOfMessages=1
+    )
+    messages = response.get('Messages', [])
+    for message in messages:
+        print(message.body)
+        receipt_handle = message['ReceiptHandle']
+        sqs.delete_message(
+            QueueUrl=queue_url,
+            ReceiptHandle=receipt_handle
+        )
+
+# Kafka
+def send_to_kafka(message):
+    producer = KafkaProducer(bootstrap_servers='localhost:9092')
+    producer.send('my_topic', message.encode('utf-8'))
+
+def receive_from_kafka():
+    consumer = KafkaConsumer('my_topic', bootstrap_servers='localhost:9092')
+    for message in consumer:
+        print(message.value.decode('utf-8'))
+
+# Simulação
+while True:
+    message = generate_message()
+    send_to_rabbitmq(message)
+    send_to_sqs(message)
+    send_to_kafka(message)
+    time.sleep(1)

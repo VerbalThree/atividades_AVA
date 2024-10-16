@@ -1,0 +1,29 @@
+class Event:
+    def __init__(self, type, amount, timestamp=None):
+        self.type = type
+        self.amount = amount
+        self.timestamp = timestamp or datetime.now()
+
+class Account:
+    def __init__(self):
+        self.events = []
+
+    def deposit(self, amount):
+        event = Event('deposit', amount)
+        self.events.append(event)
+
+    def withdraw(self, amount):
+        if self.balance() >= amount:
+            event = Event('withdrawal', amount)
+            self.events.append(event)
+        else:
+            raise ValueError("Saldo Insuficiente")
+
+    def balance(self):
+        balance = 0
+        for event in self.events:
+            if event.type == 'deposit':
+                balance += event.amount
+            else:
+                balance -= event.amount
+        return balance

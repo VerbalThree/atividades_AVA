@@ -1,0 +1,44 @@
+# Exemplo utilizando Python e RabbitMQ
+
+import pika
+import time
+
+# Conexão com o RabbitMQ
+connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+channel = connection.channel()
+
+# Criação das filas
+channel.queue_declare(queue='main_queue')
+channel.queue_declare(queue='dead_letter_queue')
+
+# Número máximo de tentativas
+max_attempts = 3
+
+def callback(ch, method, properties, body):
+    try:
+        # Simulação de processamento
+        # ... seu código de processamento aqui ...
+        print(f"Mensagem processada: {body}")
+    except Exception as e:
+        # Obter o número de tentativas (implementar um mecanismo para armazenar esse valor)
+        attempts = get_attempts(method.delivery_tag)  # Função hipotética para obter o número de tentativas
+
+        attempts += 1
+        if attempts <= max_attempts:
+            # Reenviar a mensagem com uma nova propriedade de tentativas
+            properties = pika.BasicProperties(delivery_mode=2, headers={'attempts': attempts})
+            channel.basic_publish(exchange='', routing_key='main_queue', body=body, properties=properties)
+            print(f"Mensagem reenviada: {body}")
+        else:
+            # Enviar para a DLQ
+            channel.basic_publish(exchange='', routing_key='dead_letter_queue', body=body)
+            print(f"Mensagem movida para a DLQ: {body}")
+
+    # Confirmar a entrega (mesmo em caso de erro, para evitar reprocessamento imediato)
+    ch.basic_ack(delivery_tag=method.delivery_tag)
+
+# Consumindo da fila principal
+channel.basic_consume(queue='main_queue', on_message_callback=callback)
+
+print('Esperando por mensagens. Para sair, pressione CTRL+C')
+channel.start_consuming()

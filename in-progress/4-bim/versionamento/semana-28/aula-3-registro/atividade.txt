@@ -1,0 +1,12 @@
+from kafka import KafkaProducer, KafkaConsumer
+
+# Configuração do produtor
+producer = KafkaProducer(bootstrap_servers='localhost:9092',
+                         batch_size=16384,
+                         linger_ms=5)
+
+# Configuração do consumidor
+consumer = KafkaConsumer(bootstrap_servers='localhost:9092',
+                         group_id='my_group',
+                         fetch_min_bytes=1024,
+                         fetch_max_wait_ms=50)
