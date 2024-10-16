@@ -1,0 +1,62 @@
+import random
+from faker import Faker
+
+# Inicializa o Faker para criar dados fictícios
+fake = Faker()
+
+# Função para gerar dados fictícios de usuário
+def gerar_dados_usuario(num_usuarios=10):
+    usuarios = []
+    for _ in range(num_usuarios):
+        usuario = {
+            'nome': fake.name(),
+            'idade': random.randint(18, 65),
+            'sexo': random.choice(['Masculino', 'Feminino']),
+            'localizacao': fake.city(),
+            'preferencias': random.choice(['Filmes', 'Séries', 'Música', 'Esportes', 'Tecnologia']),
+            'historico_compras': random.choice(['Eletrônicos', 'Roupas', 'Alimentos', 'Livros']),
+            'horas_navegacao_diaria': round(random.uniform(1, 5), 2)
+        }
+        usuarios.append(usuario)
+    return usuarios
+
+# Gerar 10 perfis fictícios de usuário
+usuarios = gerar_dados_usuario()
+
+# Função para desenvolver estratégias de personalização
+def personalizar_conteudo(usuario):
+    estrategia = []
+    
+    if usuario['idade'] < 30:
+        estrategia.append("Sugestão de conteúdo jovem e tendências")
+    elif usuario['idade'] >= 30:
+        estrategia.append("Sugestão de conteúdos clássicos e nostálgicos")
+    
+    if usuario['preferencias'] == 'Filmes':
+        estrategia.append("Recomendar lançamentos de cinema e trailers")
+    elif usuario['preferencias'] == 'Séries':
+        estrategia.append("Recomendar séries populares e novos episódios")
+    elif usuario['preferencias'] == 'Música':
+        estrategia.append("Playlists e novos lançamentos musicais")
+    elif usuario['preferencias'] == 'Esportes':
+        estrategia.append("Notícias esportivas e eventos ao vivo")
+    elif usuario['preferencias'] == 'Tecnologia':
+        estrategia.append("Sugestão de gadgets e novas tecnologias")
+    
+    return estrategia
+
+# Aplicar personalização para cada usuário
+for usuario in usuarios:
+    perfil = f"""
+    Nome: {usuario['nome']}
+    Idade: {usuario['idade']}
+    Sexo: {usuario['sexo']}
+    Localização: {usuario['localizacao']}
+    Preferências: {usuario['preferencias']}
+    Histórico de Compras: {usuario['historico_compras']}
+    Horas de Navegação Diária: {usuario['horas_navegacao_diaria']}
+    """
+    estrategias = personalizar_conteudo(usuario)
+    print(perfil)
+    print("Estratégias de Personalização:", estrategias)
+    print('-' * 50)

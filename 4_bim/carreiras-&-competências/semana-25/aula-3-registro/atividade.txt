@@ -1,0 +1,34 @@
+Pergunta 1: Fale sobre um momento em que você precisou tomar uma decisão difícil sob pressão.
+
+    Situação (S): Durante um projeto importante na faculdade, a equipe estava dividida sobre qual direção tomar, e o prazo final estava se aproximando rapidamente.
+    Tarefa (T): Como o líder do grupo, era minha responsabilidade tomar uma decisão que unisse a equipe e garantisse que entregássemos o projeto a tempo.
+    Ação (A): Convidei todos para uma reunião rápida, onde cada membro apresentou sua visão. Após ouvir todas as opiniões, analisei os prós e contras de cada proposta e tomei uma decisão baseada nas melhores informações disponíveis, assegurando que todos estivessem de acordo com a direção escolhida.
+    Resultado (R): A decisão resultou em um projeto coeso e bem-executado, e recebemos elogios do professor. A experiência também fortaleceu a colaboração e a confiança dentro da equipe.
+
+Pergunta 2: Conte-nos sobre uma vez em que você colaborou com colegas para resolver um problema.
+
+    Situação (S): Durante um estágio em uma empresa de tecnologia, um bug crítico surgiu em um aplicativo que estávamos desenvolvendo, e a data de lançamento estava se aproximando.
+    Tarefa (T): Meu papel era trabalhar em conjunto com os desenvolvedores e designers para identificar a causa do problema e corrigi-lo rapidamente.
+    Ação (A): Organizei uma reunião com a equipe, onde revisamos o código e discutimos possíveis soluções. Dividimos as tarefas com base nas especializações de cada um e trabalhamos em paralelo para resolver o bug.
+    Resultado (R): Conseguimos corrigir o problema antes do prazo, e o aplicativo foi lançado com sucesso. Essa experiência melhorou minha capacidade de colaboração e comunicação em equipe.
+
+Pergunta 3: Descreva uma situação em que você enfrentou uma falha ou um erro e como você lidou com isso.
+
+    Situação (S): Em uma apresentação de grupo, eu era responsável por uma seção, e, ao revisitar as informações, percebi que havia usado dados desatualizados.
+    Tarefa (T): Eu precisava corrigir meu erro rapidamente para garantir que a apresentação fosse precisa e informativa.
+    Ação (A): Informei o grupo sobre o erro e pedi um tempo extra para revisar e atualizar minha parte. Trabalhei para corrigir a apresentação e, na hora da apresentação, reconheci o erro e compartilhei as informações corretas.
+    Resultado (R): O grupo conseguiu apresentar dados atualizados e, apesar do erro inicial, fomos bem avaliados. Essa experiência me ensinou a importância de verificar as informações e a ser transparente em situações de erro.
+
+Pergunta 4: Conte-nos sobre uma ocasião em que você defendeu uma ideia ou um projeto.
+
+    Situação (S): Durante uma reunião de planejamento em um projeto universitário, eu tinha uma ideia para melhorar a abordagem de marketing do nosso evento.
+    Tarefa (T): Meu objetivo era convencer a equipe a adotar minha proposta, que envolvia o uso de redes sociais para engajar um público maior.
+    Ação (A): Preparei uma apresentação com dados de pesquisa que apoiavam minha ideia e como isso poderia aumentar nossa visibilidade. Durante a reunião, apresentei minha proposta de forma clara e respondi a todas as perguntas e preocupações dos colegas.
+    Resultado (R): A equipe ficou convencida da eficácia da proposta e decidiu implementá-la. O evento teve um ótimo alcance nas redes sociais e atraiu um número maior de participantes do que o esperado.
+
+Pergunta 5: Descreva uma situação em que você demonstrou habilidades de resolução de problemas para superar um obstáculo ou um desafio.
+
+    Situação (S): Em um projeto de grupo, nos deparamos com um prazo muito apertado devido a imprevistos na entrega de materiais.
+    Tarefa (T): Precisávamos encontrar uma solução rápida para garantir que conseguíssemos entregar o projeto a tempo.
+    Ação (A): Propus dividir o projeto em partes menores e atribuí tarefas específicas a cada membro da equipe, assim poderíamos trabalhar em paralelo. Além disso, sugeri o uso de ferramentas de colaboração online para facilitar a comunicação.
+    Resultado (R): Conseguimos completar o projeto antes do prazo, o que resultou em uma apresentação bem-sucedida. Aprendi a importância de agilidade e colaboração em situações desafiadoras.

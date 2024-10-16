@@ -1,0 +1,8 @@
+Prompt: "Crie uma pesquisa para entender os hábitos de leitura e as preferências dos usuários de uma plataforma de busca de livros. A pesquisa deve coletar informações como:
+
+    Frequência de leitura.
+    Gêneros literários favoritos.
+    Formato preferido (físico, e-book, audiolivro).
+    Fontes usadas para descobrir novos livros.
+    Tempo disponível para leitura semanal.
+    Disposição para recomendações personalizadas e notificações."

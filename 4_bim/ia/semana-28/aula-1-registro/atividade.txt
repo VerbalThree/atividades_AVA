@@ -1,0 +1,12 @@
+Tópico: Inteligência artificial na educação.
+
+Perguntas de pesquisa:
+
+    Como a inteligência artificial está sendo utilizada para personalizar o ensino em ambientes educacionais?
+        Prompt de conclusão: "Descreva os métodos atuais de personalização de ensino usando IA, com exemplos de plataformas ou ferramentas educacionais. Inclua tecnologias como aprendizado adaptativo e análise de dados de alunos."
+
+    Quais são os benefícios e desafios da implementação de sistemas de tutoria baseados em inteligência artificial nas escolas?
+        Prompt de conclusão: "Explique os principais benefícios e os desafios técnicos, éticos e financeiros de usar tutores de IA nas escolas. Dê exemplos práticos de escolas que já utilizam essa tecnologia."
+
+    De que maneira a inteligência artificial pode auxiliar na detecção e prevenção da evasão escolar?
+        Prompt de conclusão: "Detalhe como a IA pode usar dados de comportamento e desempenho dos alunos para prever riscos de evasão. Mencione soluções atuais que ajudam a monitorar e intervir nesses casos."
