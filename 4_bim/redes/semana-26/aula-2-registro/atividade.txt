@@ -1,0 +1,38 @@
+Relatório de Migração para a Nuvem - Google Cloud
+1. Criação de Conta no Google Cloud
+
+    Acesso: Visitei o site oficial do Google Cloud (https://cloud.google.com) e cliquei em “Get Started for Free”.
+    Cadastro: Usei meu e-mail corporativo para criar a conta.
+    Verificação: Preenchi os dados pessoais e verifiquei a conta por meio de um código enviado via SMS.
+    Crédito Inicial: Recebi um crédito de $300 para usar em serviços do Google Cloud durante o período de avaliação gratuito.
+
+2. Criação de Novo Projeto
+
+    Login: Após acessar o painel do Google Cloud, naveguei até o Console (https://console.cloud.google.com).
+    Novo Projeto: No menu superior, cliquei em “Selecionar um Projeto” e, em seguida, em “Novo Projeto”.
+        Nome do Projeto: XYZ-Cloud-Migration
+        ID do Projeto: gerado automaticamente pelo sistema
+    Conclusão: Projeto criado com sucesso, e ele aparece na lista de projetos disponíveis.
+
+3. Criação de Instância de Máquina Virtual (VM)
+
+    Acesso ao Compute Engine: No painel do Google Cloud, naveguei até Compute Engine no menu lateral e cliquei em “Criar Instância”.
+    Configuração da Instância:
+        Nome: vm-xyz-comercio
+        Região: Escolhi uma região próxima ao local de operação da empresa (ex: us-central1).
+        Máquina: Selecionei uma configuração básica para testes:
+            Tipo de Máquina: e2-medium (2 vCPUs, 4 GB de memória)
+        Sistema Operacional: Escolhi Debian Linux 11 como o sistema operacional da VM.
+    Firewall: Ativei as regras de firewall para permitir tráfego HTTP e HTTPS.
+    Criação: Cliquei em “Criar” para provisionar a instância.
+        A criação levou alguns minutos, e a instância ficou disponível para acesso via SSH diretamente pelo Console do Google Cloud.
+
+4. Conexão com a Máquina Virtual
+
+    Acesso via SSH: Utilizei o botão “Conectar por SSH” no Console do Google Cloud para acessar a VM.
+    Testes Básicos: Após conectar, executei comandos básicos para verificar a conectividade e a performance da instância, como ping google.com e sudo apt-get update.
+
+5. Conclusão e Próximos Passos
+
+    A conta foi criada, o projeto configurado e a instância de máquina virtual está pronta para testes.
+    Próximos Passos: Configurar o ambiente de comércio eletrônico e testar a migração dos serviços locais para a VM na nuvem.

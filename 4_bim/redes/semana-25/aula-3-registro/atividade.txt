@@ -1,0 +1,64 @@
+Quiz LGPD – Verificação de Conhecimento
+
+1. O que é a LGPD?
+
+    (A) Lei que regula o uso de dados em transações comerciais internacionais
+    (B) Lei que protege os dados pessoais e a privacidade dos cidadãos no Brasil
+    (C) Lei que proíbe o uso de dados pessoais em qualquer situação
+    (D) Lei que trata exclusivamente do tratamento de dados financeiros
+
+Resposta correta: (B)
+
+2. Qual das opções abaixo é considerada um dado sensível pela LGPD?
+
+    (A) Nome completo
+    (B) Número de telefone
+    (C) Orientação sexual
+    (D) Endereço de e-mail
+
+Resposta correta: (C)
+
+3. O que é necessário para o tratamento de dados pessoais conforme a LGPD?
+
+    (A) Consentimento explícito do titular dos dados
+    (B) Aprovação de uma autoridade pública
+    (C) Apenas um contrato assinado
+    (D) Apenas autorização verbal do titular dos dados
+
+Resposta correta: (A)
+
+4. Em qual caso o consentimento NÃO é necessário para tratar dados pessoais?
+
+    (A) Quando o titular é um cliente da empresa
+    (B) Para o cumprimento de uma obrigação legal ou regulatória
+    (C) Para fins de marketing digital
+    (D) Quando os dados são públicos
+
+Resposta correta: (B)
+
+5. Caso Hipotético: Um colaborador acessa dados pessoais de clientes sem autorização para fins pessoais. Isso é permitido pela LGPD?
+
+    (A) Sim, se for para fins internos da empresa
+    (B) Não, isso caracteriza violação de dados
+    (C) Sim, se os dados forem de clientes que já fizeram compras
+    (D) Depende da política interna da empresa
+
+Resposta correta: (B)
+
+6. Qual a penalidade máxima prevista pela LGPD para violações graves de dados?
+
+    (A) Suspensão das atividades da empresa
+    (B) Multa de até 2% do faturamento, limitada a 50 milhões de reais por infração
+    (C) Advertência e pagamento de uma taxa
+    (D) Cancelamento de contratos comerciais
+
+Resposta correta: (B)
+
+7. O que deve ser feito caso ocorra um vazamento de dados em uma empresa?
+
+    (A) Informar a Autoridade Nacional de Proteção de Dados (ANPD) imediatamente
+    (B) Entrar em contato com os titulares dos dados e pedir desculpas
+    (C) Corrigir o problema sem informar ninguém
+    (D) Solicitar suporte técnico para resolver o problema internamente
+
+Resposta correta: (A)

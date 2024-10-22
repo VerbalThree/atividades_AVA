@@ -1,0 +1,47 @@
+Relatório: Conexão Remota via SSH
+1. Geração da Chave SSH
+
+    Geração da Chave: No terminal local, usei o comando abaixo para gerar um par de chaves SSH (pública e privada):
+
+    bash
+
+    ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa
+
+        Deixei o campo da senha em branco para facilitar o uso sem necessidade de senha toda vez.
+        Isso gerou dois arquivos: id_rsa (chave privada) e id_rsa.pub (chave pública).
+
+2. Upload da Chave Pública para o Servidor
+
+    Acesso ao Google Cloud: No Console do Google Cloud, acessei Compute Engine > Instâncias de VM.
+    Adição da Chave SSH: Editei a instância criada anteriormente (vm-xyz-comercio) e, na seção de Chaves SSH, colei o conteúdo da minha chave pública (id_rsa.pub).
+        Exemplo do conteúdo:
+
+        bash
+
+        ssh-rsa AAAAB3Nza... usuário@máquina
+
+3. Configuração de Acesso via SSH
+
+    Verificação de Conectividade: Confirmei que a instância está rodando e o tráfego SSH está liberado nas regras de firewall.
+    Acesso pelo Terminal: No terminal local, usei o comando SSH para conectar à instância remota:
+
+    bash
+
+    ssh -i ~/.ssh/id_rsa usuário@IP-da-instância
+
+        Substituí usuário pelo nome de usuário configurado e IP-da-instância pelo IP externo da VM.
+
+4. Verificação da Conexão
+
+    Conexão bem-sucedida: Acessei o servidor com sucesso e, dentro da sessão SSH, executei alguns comandos básicos de verificação, como:
+
+    bash
+
+    uname -a
+
+        Isso confirmou que a máquina está operando corretamente, com o sistema Debian configurado.
+
+5. Conclusão
+
+    A conexão SSH com a instância foi realizada com sucesso.
+    O servidor está acessível remotamente, e todas as informações transmitidas estão protegidas por criptografia, conforme esperado.
