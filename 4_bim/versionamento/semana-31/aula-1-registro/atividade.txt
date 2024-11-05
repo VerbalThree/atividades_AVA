@@ -1,0 +1,29 @@
+Prezada equipe,
+
+Segue o plano de implementação de um pipeline de dados para a aplicação de comércio eletrônico fictícia. Este pipeline visa coletar, transformar e carregar dados de transações, inventário e interações de usuários para suportar análise e otimização dos processos de negócios.
+
+1. Fontes de Dados
+
+    Transações: Dados coletados do sistema de pagamento e histórico de pedidos.
+    Inventário: Atualizações de estoque e logística.
+    Interações de Usuário: Eventos de navegação e cliques, capturados diretamente do site.
+
+2. Processos de Transformação
+
+    ETL (Extração, Transformação e Carregamento): Utilização de ferramentas como Apache NiFi ou Apache Spark para transformar dados brutos em dados estruturados, incluindo limpeza, agregação e enriquecimento de dados de inventário e transações.
+    Normalização: Padronização de dados de interações de usuários e transações para análise consistente.
+
+3. Armazenamento Intermediário
+
+    Data Lake (ex.: Amazon S3) para armazenar dados brutos em formato escalável.
+    Armazenamento Temporário: Utilização de um banco de dados intermediário, como Amazon Redshift ou BigQuery, para dados processados prontos para análise.
+
+4. Destinos Finais
+
+    Data Warehouse: Envio dos dados transformados para um data warehouse (ex.: Snowflake ou Google BigQuery) para suporte a relatórios e visualizações.
+    Ferramenta de BI: Integração com plataformas de visualização de dados (ex.: Power BI, Tableau) para relatórios e insights.
+
+Este plano permitirá capturar insights relevantes para otimização e decisões estratégicas. Estou à disposição para dúvidas.
+
+Atenciosamente,
+Andrêi Tchikatilo

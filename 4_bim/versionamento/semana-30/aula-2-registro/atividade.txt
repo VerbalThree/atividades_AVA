@@ -1,0 +1,5 @@
+Após realizar o push das alterações para o repositório no GitHub, o webhook configurado envia uma notificação ao Jenkins. Isso dispara o job, que agora inclui dois novos passos: instalar as dependências de teste listadas em requirements.txt usando pip install -r requirements.txt e executar os testes com o comando pytest.
+
+O Jenkins então roda o arquivo de teste test_app.py, onde o teste test_example verifica se 1 + 1 == 2. Como essa afirmação é verdadeira, o teste deve passar sem erros.
+
+Os resultados dos testes aparecem na interface do Jenkins, mostrando o status da execução. A saída esperada é que o job conclua com sucesso, exibindo "Build Successful" e uma confirmação dos testes passados. Caso ocorra alguma falha, o Jenkins indicará o erro, permitindo a correção antes de um novo push.

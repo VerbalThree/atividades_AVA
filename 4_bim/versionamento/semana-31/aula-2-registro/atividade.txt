@@ -1,0 +1,25 @@
+Prezada equipe técnica,
+
+Desenvolvi um projeto para o sistema de mensageria do nosso aplicativo de rede social, focado em comunicação eficiente e escalabilidade entre serviços.
+
+Componentes do Sistema:
+
+    Broker de Mensagens: Um intermediário (como RabbitMQ ou Apache Kafka) gerenciará a troca de mensagens entre serviços, como postagens, notificações e interações, garantindo entrega e ordenação.
+
+    Filas e Tópicos:
+        Filas para mensagens ponto a ponto (ex.: confirmação de recebimento de notificações).
+        Tópicos para publicar eventos amplamente (ex.: novas postagens visíveis aos seguidores).
+
+    Microserviços: Cada componente (ex.: serviço de postagens, notificações) atuará como um produtor ou consumidor de mensagens, mantendo independência e alta disponibilidade.
+
+Comunicação e Segurança:
+
+    Comunicação assíncrona para reduzir latência e evitar travamento entre serviços.
+    Implementação de autenticação e controle de acesso via tokens para segurança das mensagens.
+
+Este projeto foi desenvolvido para otimizar a integração entre nossos serviços e melhorar a experiência do usuário em tempo real.
+
+Estou à disposição para dúvidas e ajustes conforme necessário.
+
+Atenciosamente,
+Ivan Serov

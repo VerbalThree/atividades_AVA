@@ -1,0 +1,31 @@
+Relatório de Configuração de Monitoramento para Pipeline CI/CD
+
+1. Instalação e Configuração de Prometheus:
+
+    Instalação: Prometheus instalado conforme a documentação oficial.
+    Configuração de Scraping: Configuração do Prometheus para coletar métricas do Jenkins, com frequência de coleta de 15s para monitorar etapas do pipeline, como especificado em prometheus.yml.
+
+2. Instalação e Configuração do Grafana:
+
+    Conexão com Prometheus: Grafana configurado para consumir dados do Prometheus em http://localhost:9090.
+    Dashboards Personalizados: Criação de gráficos no Grafana para monitoramento em tempo real:
+        Tempo de Execução por Etapa: avg(jenkins_stage_duration_seconds)
+        Taxa de Sucesso e Falha: rate(jenkins_build_result_total{result="SUCCESS"}[5m]) e rate(jenkins_build_result_total{result="FAILURE"}[5m])
+        Uso de Recursos do Servidor: Métricas como node_cpu_seconds_total, node_memory_Active_bytes, e node_disk_io_time_seconds_total foram adicionadas.
+
+3. Configuração de Alertas no Prometheus:
+
+    Configuração de alertas para falhas no pipeline:
+        Alerta de Falha no Pipeline: Regra para alertar falhas recorrentes no pipeline, detectando se o pipeline falhou mais de 5 vezes nos últimos 5 minutos, com severidade "critical".
+
+4. Integração de Notificações (Alertmanager):
+
+    Configuração do Alertmanager para enviar notificações via e-mail e Slack:
+        Notificações configuradas para enviar alertas críticos ao Slack e por e-mail, conforme as informações de credenciais no alertmanager.yml.
+
+Resultados e Análise:
+
+    Após a configuração, os dashboards do Grafana apresentam dados consistentes sobre o pipeline, com visualização em tempo real dos tempos de execução, taxa de falhas e consumo de recursos. Alertas foram testados e são recebidos conforme esperado.
+
+Atenciosamente,
+Alexander Shelepin

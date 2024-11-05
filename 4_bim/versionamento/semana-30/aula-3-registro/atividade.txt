@@ -1,0 +1,8 @@
+Após configurar o projeto Maven no repositório e o Jenkins para executar o build, ao realizar um push no GitHub, o webhook notifica o Jenkins, que então executa o comando mvn clean install.
+
+O comando mvn clean install tem dois propósitos principais:
+
+    clean: Remove os arquivos antigos de compilação, limpando o ambiente para evitar interferências de builds anteriores.
+    install: Compila o código Java, realiza testes e gera os artefatos de build (como um arquivo .jar ou .war), instalando-os no repositório local do Maven.
+
+O resultado da execução é exibido no Jenkins, e, se o build for bem-sucedido, os artefatos da aplicação estarão prontos para serem usados ou distribuídos.
