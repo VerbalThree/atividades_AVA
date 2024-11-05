@@ -1,0 +1,18 @@
+Como parte do treinamento de segurança, cada colaborador foi orientado a criar uma senha forte seguindo os critérios de segurança, incluindo:
+
+    Mínimo de 12 caracteres;
+    Combinação de letras maiúsculas, minúsculas, números e caracteres especiais;
+    Evitar informações pessoais.
+
+Processo e Resultados:
+
+    Teste de Segurança: Utilizado o site https://prodest.es.gov.br/senhas para verificar a confiabilidade da senha criada.
+    Registro de Tentativas e Dificuldades: Cada colaborador registrou o número de tentativas realizadas até obter uma senha que atendesse aos critérios. As principais dificuldades relatadas foram:
+        Combinar todos os requisitos sem criar uma senha difícil de lembrar.
+        Evitar caracteres e padrões comuns que foram rejeitados como vulneráveis.
+
+Conclusão:
+Esta atividade reforça a importância de criar senhas robustas para proteger nossas contas e dados, destacando as melhores práticas de segurança.
+
+Atenciosamente,
+Vitaly Fedorchuk

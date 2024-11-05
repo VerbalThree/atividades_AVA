@@ -1,0 +1,17 @@
+    Acesso às Configurações de Segurança:
+        Entre na sua conta do Google, clique em “Gerenciar sua Conta Google” > “Segurança”.
+
+    Ativação da Verificação em Duas Etapas:
+        Em "Verificação em duas etapas", selecione “Configurar” e confirme sua identidade.
+        Escolha “Aplicativo Authenticator” como método e avance.
+
+    Configuração no Google Authenticator:
+        No aplicativo Google Authenticator, toque em “+” e escaneie o código QR na tela do computador, ou insira o código manualmente.
+
+    Verificação e Finalização:
+        Insira um código gerado pelo Authenticator para verificar a configuração e clique em “Salvar” ou “Concluir”.
+
+    Códigos de Backup (Opcional):
+        Guarde os códigos de backup fornecidos pelo Google em um local seguro para emergências.
+
+Agora, ao fazer login, será solicitado um código adicional do Google Authenticator, aumentando a segurança de sua conta.

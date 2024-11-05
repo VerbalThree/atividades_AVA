@@ -1,0 +1,15 @@
+Objetivo: Praticar a configuração de IPs estáticos, IPv6, firewall e garantir a disponibilidade no Amazon Lightsail.
+
+Passos Realizados:
+
+    Atribuição de IPs Estáticos: Criei duas instâncias no Amazon Lightsail, nomeadas Ubuntu-1 e Ubuntu-2. Iniciei a Ubuntu-1 e parei a Ubuntu-2. Atribuí IPs estáticos para ambas as instâncias com sucesso.
+
+    Configuração do IPv6: Verifiquei que ambas as instâncias tinham endereços IPv6. Em seguida, desabilitei o IPv6 na Ubuntu-2 e confirmei que as configurações estavam diferentes entre as instâncias.
+
+    Identificação dos Servidores: Criei um arquivo de texto simples em cada instância para identificá-las. Os identificadores foram configurados corretamente e estavam acessíveis em ambas as instâncias.
+
+    Verificação e Ajuste do Firewall: Revisei as regras do firewall, garantindo que a porta 80 estava aberta. Adicionei uma regra de firewall quando necessário para assegurar a disponibilidade dos serviços.
+
+    Garantia da Disponibilidade do Serviço: Verifiquei que o serviço Nginx estava ativo em ambas as instâncias e configurei-o para iniciar automaticamente após o reboot da máquina.
+
+Problemas Encontrados: O principal desafio foi a configuração do IPv6, onde precisei consultar a documentação para desativá-lo corretamente. Após a leitura, consegui completar a tarefa sem mais complicações.

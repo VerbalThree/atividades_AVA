@@ -1,0 +1,19 @@
+Desenvolvimento:
+
+Formamos grupos de até cinco integrantes e realizamos uma discussão sobre exemplos de dados pessoais e sensíveis que encontramos nas atividades diárias de trabalho. Nossas listas incluíram:
+
+    Dados Pessoais:
+        Nome completo
+        Endereço
+        Número de telefone
+        E-mail
+
+    Dados Sensíveis:
+        Informações sobre saúde (ex. atestados médicos)
+        Orientação sexual
+        Convicções religiosas ou filosóficas
+        Dados financeiros (ex. número de conta bancária)
+
+Após compilar nossas listas, apresentamos os exemplos para os demais grupos, promovendo uma troca enriquecedora de experiências. Participamos de uma discussão em torno de um estudo de caso relacionado ao nosso ambiente de trabalho, onde identificamos a presença de dados pessoais e sensíveis, reforçando a importância de sua proteção.
+
+Durante a atividade, surgiram alguns desafios, como a dificuldade em distinguir entre dados pessoais e dados sensíveis. Essa discussão nos ajudou a esclarecer conceitos e a reconhecer a relevância de respeitar a privacidade de nossos colegas e clientes.

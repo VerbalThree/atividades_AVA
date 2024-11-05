@@ -1,0 +1,5 @@
+A atividade de criação de um mapa conceitual sobre WordPress usando o Coggle. Comecei acessando o site e criei uma conta para poder explorar as funcionalidades da ferramenta. Após escolher um layout que se adequasse ao meu estilo, nomeei meu mapa de "Fundamentos do WordPress".
+
+Em seguida, adicionei os principais conceitos, como a definição de WordPress, os tipos (WordPress.com e WordPress.org), os processos de instalação, temas, plugins e gerenciamento de conteúdo. Conectei cada um desses nós com linhas, mostrando a relação entre eles e utilizei cores diferentes para tornar o mapa mais visual e atraente.
+
+A parte mais interessante foi adicionar notas e imagens que ajudaram a enriquecer o conteúdo. Além disso, tive a oportunidade de colaborar com alguns colegas, que contribuíram com sugestões e aprimoraram o mapa.

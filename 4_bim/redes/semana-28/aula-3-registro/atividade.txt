@@ -1,0 +1,20 @@
+Configuração Inicial:
+
+    No Packet Tracer, adicione um firewall ASA 5506, clique na aba CLI e apague as configurações padrão com write erase e reload.
+
+Configuração do Hostname:
+
+    Entre no modo de configuração global (configure terminal) e altere o hostname para ASA.
+
+Configuração da Interface de Gerenciamento:
+
+    Na interface Management 1/1, configure o IP (172.16.20.1), nomeie-a como "mgmt", defina a máscara de sub-rede e habilite o tráfego.
+
+Configuração do Acesso SSH:
+
+    Crie um usuário (admin) com senha (cisco), e permita o acesso SSH para a rede 172.16.20.x através da interface "mgmt".
+
+Teste do Acesso Remoto:
+
+    Conecte um laptop à porta Management 1/1 do firewall e configure o IP do laptop na mesma rede.
+    Acesse o firewall via SSH usando o IP 172.16.20.1, o usuário admin e a senha cisco.

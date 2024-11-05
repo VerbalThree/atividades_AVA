@@ -1,0 +1,7 @@
+Na nossa organização, temos o compromisso de garantir a conformidade com a Lei Geral de Proteção de Dados (LGPD) e de proteger a privacidade de nossos clientes e colaboradores. Para fortalecer essa iniciativa, realizamos uma atividade de mapeamento de todos os dados pessoais que coletamos, armazenamos e processamos.
+
+A atividade foi organizada em grupos de trabalho, incentivando a colaboração e o brainstorming entre os participantes. Começamos identificando as principais fontes de dados pessoais em nossa área de atuação. Focamos em bancos de dados, sistemas de CRM, formulários de inscrição, registros de funcionários e outras fontes relevantes.
+
+Durante as discussões, cada grupo documentou as fontes de dados, descrevendo detalhadamente os tipos de dados pessoais coletados, a finalidade de seu uso e quem tem acesso a esses dados. Esse mapeamento não apenas facilitou a identificação dos dados, mas também promoveu uma melhor compreensão sobre como cada informação é utilizada dentro da organização.
+
+Concluímos a atividade com um relatório que reúne todas as informações coletadas, permitindo que nossa equipe tenha uma visão clara sobre o fluxo de dados pessoais e os procedimentos necessários para garantir a conformidade com a LGPD. A troca de ideias e a colaboração entre os grupos foram fundamentais para assegurar que não deixássemos de lado nenhum dado importante.

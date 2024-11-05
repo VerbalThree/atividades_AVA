@@ -1,0 +1,11 @@
+Experiência:
+
+    Criação da Instância: Acesse a interface do Amazon Lightsail e segui os passos do vídeo tutorial para criar uma nova instância. Escolhi a região e a zona de disponibilidade, além de nomear a instância como “MeuSiteWordPress”. O processo foi intuitivo e rápido.
+
+    Acesso à Instância: Após a criação, consegui acessar a instância utilizando as credenciais de administração fornecidas. Ao acessar a página inicial do WordPress, fiquei satisfeito por ver que a instalação estava correta e funcionando.
+
+    Configuração de IP Estático (Opcional): Decidi configurar um IP estático para garantir que meu site tivesse um endereço fixo. Segui as instruções do vídeo, e a configuração foi feita sem dificuldades.
+
+    Eliminação da Instância: Ao finalizar o trabalho, removi a instância conforme indicado. Essa etapa foi simples, e fiquei aliviado ao saber que não haveria custos adicionais.
+
+Desafios Enfrentados: O principal desafio foi entender como funciona a interface do Amazon Lightsail, já que era a primeira vez que utilizava a plataforma. Para superar isso, assisti ao vídeo tutorial com atenção e fiz anotações sobre cada passo.
