@@ -1,0 +1,17 @@
+Construindo o jogo Pong
+
+Materiais necessários:
+
+Para realização dessa atividade em laboratório, devem ser utilizados os materiais:
+
+    Computador com conexão com a internet;
+    Caderno para anotações;
+    Uma caneta.
+
+Passo a passo:
+
+    Leia com atenção cada uma das ações propostas no documento.
+    Antes de iniciar, realize esboços no papel para definir sua intenção e resultado.
+    Utilize as ferramentas de desenvolvimento disponíveis para esta atividade.
+
+Baixe o roteiro desta atividade.

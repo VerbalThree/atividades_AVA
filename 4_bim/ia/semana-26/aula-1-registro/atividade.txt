@@ -1,0 +1,81 @@
+let ballX, ballY;  // Posições da bola
+let ballSpeedX = 3, ballSpeedY = 3;  // Velocidade da bola
+let paddle1Y, paddle2Y;  // Posições dos paddles
+let paddleHeight = 80, paddleWidth = 10;  // Tamanho dos paddles
+let player1Score = 0, player2Score = 0;  // Placar
+let paddleSpeed = 5;  // Velocidade dos paddles
+
+function setup() {
+  createCanvas(600, 400);
+  ballX = width / 2;
+  ballY = height / 2;
+  paddle1Y = height / 2 - paddleHeight / 2;
+  paddle2Y = height / 2 - paddleHeight / 2;
+}
+
+function draw() {
+  background(0);
+  
+  // Desenha a bola
+  fill(255);
+  ellipse(ballX, ballY, 15, 15);
+  
+  // Move a bola
+  ballX += ballSpeedX;
+  ballY += ballSpeedY;
+  
+  // Detecta colisão com as bordas superior e inferior
+  if (ballY < 0 || ballY > height) {
+    ballSpeedY *= -1;
+  }
+  
+  // Detecta colisão com os paddles
+  if (ballX < 20 && ballY > paddle1Y && ballY < paddle1Y + paddleHeight) {
+    ballSpeedX *= -1;
+  }
+  
+  if (ballX > width - 20 && ballY > paddle2Y && ballY < paddle2Y + paddleHeight) {
+    ballSpeedX *= -1;
+  }
+  
+  // Verifica se alguém pontuou
+  if (ballX < 0) {
+    player2Score++;
+    resetBall();
+  }
+  if (ballX > width) {
+    player1Score++;
+    resetBall();
+  }
+  
+  // Desenha os paddles
+  rect(10, paddle1Y, paddleWidth, paddleHeight);
+  rect(width - 20, paddle2Y, paddleWidth, paddleHeight);
+  
+  // Controles dos paddles
+  if (keyIsDown(87)) {  // Tecla 'W'
+    paddle1Y = max(0, paddle1Y - paddleSpeed);
+  }
+  if (keyIsDown(83)) {  // Tecla 'S'
+    paddle1Y = min(height - paddleHeight, paddle1Y + paddleSpeed);
+  }
+  if (keyIsDown(UP_ARROW)) {  // Seta para cima
+    paddle2Y = max(0, paddle2Y - paddleSpeed);
+  }
+  if (keyIsDown(DOWN_ARROW)) {  // Seta para baixo
+    paddle2Y = min(height - paddleHeight, paddle2Y + paddleSpeed);
+  }
+  
+  // Desenha o placar
+  textSize(32);
+  textAlign(CENTER);
+  text(player1Score, width / 4, 50);
+  text(player2Score, width * 3 / 4, 50);
+}
+
+// Reinicia a bola no centro após um ponto
+function resetBall() {
+  ballX = width / 2;
+  ballY = height / 2;
+  ballSpeedX *= -1;  // Inverte a direção da bola
+}

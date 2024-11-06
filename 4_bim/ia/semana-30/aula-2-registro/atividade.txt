@@ -1,0 +1,5 @@
+Testes Realizados: Simulamos diversas interações de usuários com o chatbot, realizando perguntas sobre políticas de privacidade, termos de uso e categorias de produtos. Durante os testes, avaliamos se o sistema de seleção de contexto estava funcionando corretamente, garantindo que o chatbot fornecesse informações relevantes para cada tipo de interação.
+
+Resultados da Avaliação: O sistema de seleção de contexto e documentos demonstrou eficácia ao oferecer respostas adequadas com base nas perguntas dos usuários. Quando um usuário perguntava sobre a política de privacidade, por exemplo, o chatbot retornava informações precisas retiradas do documento correspondente. Observamos uma melhoria significativa na precisão das respostas à medida que o contexto era corretamente identificado.
+
+Conclusão: A implementação da divisão de documentos e do sistema de seleção de contexto foi fundamental para melhorar a eficiência do chatbot, proporcionando interações mais naturais e precisas. A atividade demonstrou a importância de organizar e estruturar os dados para que o chatbot ofereça respostas de alta qualidade aos usuários.

@@ -1,0 +1,84 @@
+let ball = { x: 0, y: 0, speedX: 3, speedY: 3 };  // Propriedades da bola
+let paddle1 = { y: 0, score: 0 };  // Propriedades do paddle 1
+let paddle2 = { y: 0, score: 0 };  // Propriedades do paddle 2
+const paddleHeight = 80, paddleWidth = 10, paddleSpeed = 5;  // Constantes de paddle
+const ballSize = 15;
+
+function setup() {
+  createCanvas(600, 400);
+  initGame();
+}
+
+function draw() {
+  background(0);
+  drawBall();
+  moveBall();
+  checkCollisions();
+  drawPaddles();
+  handlePaddleControls();
+  displayScore();
+}
+
+function initGame() {
+  ball.x = width / 2;
+  ball.y = height / 2;
+  paddle1.y = (height - paddleHeight) / 2;
+  paddle2.y = (height - paddleHeight) / 2;
+}
+
+function drawBall() {
+  fill(255);
+  ellipse(ball.x, ball.y, ballSize, ballSize);
+}
+
+function moveBall() {
+  ball.x += ball.speedX;
+  ball.y += ball.speedY;
+}
+
+function checkCollisions() {
+  // Colisão com bordas superior e inferior
+  if (ball.y < 0 || ball.y > height) ball.speedY *= -1;
+
+  // Colisão com paddles
+  if (isBallCollidingWithPaddle(10, paddle1.y)) ball.speedX *= -1;
+  if (isBallCollidingWithPaddle(width - 20, paddle2.y)) ball.speedX *= -1;
+
+  // Verifica pontuação
+  if (ball.x < 0) updateScore(paddle2);
+  else if (ball.x > width) updateScore(paddle1);
+}
+
+function isBallCollidingWithPaddle(paddleX, paddleY) {
+  return ball.x < paddleX + paddleWidth && ball.y > paddleY && ball.y < paddleY + paddleHeight;
+}
+
+function updateScore(player) {
+  player.score++;
+  resetBall();
+}
+
+function drawPaddles() {
+  rect(10, paddle1.y, paddleWidth, paddleHeight);
+  rect(width - 20, paddle2.y, paddleWidth, paddleHeight);
+}
+
+function handlePaddleControls() {
+  if (keyIsDown(87)) paddle1.y = max(0, paddle1.y - paddleSpeed);  // Tecla 'W'
+  if (keyIsDown(83)) paddle1.y = min(height - paddleHeight, paddle1.y + paddleSpeed);  // Tecla 'S'
+  if (keyIsDown(UP_ARROW)) paddle2.y = max(0, paddle2.y - paddleSpeed);  // Seta para cima
+  if (keyIsDown(DOWN_ARROW)) paddle2.y = min(height - paddleHeight, paddle2.y + paddleSpeed);  // Seta para baixo
+}
+
+function displayScore() {
+  textSize(32);
+  textAlign(CENTER);
+  text(paddle1.score, width / 4, 50);
+  text(paddle2.score, (3 * width) / 4, 50);
+}
+
+function resetBall() {
+  ball.x = width / 2;
+  ball.y = height / 2;
+  ball.speedX *= -1;  // Inverte a direção da bola
+}

@@ -1,0 +1,3 @@
+Testes Realizados: Durante os testes, simulamos várias interações de usuários com o chatbot, incluindo perguntas sobre produtos, pedidos e políticas do e-commerce. Avaliamos a capacidade do assistente de fornecer respostas adequadas e de manter o contexto entre diferentes mensagens dentro da mesma conversa.
+
+Resultados da Avaliação: Os testes mostraram que a integração do assistente ao chatbot foi bem-sucedida. O assistente foi capaz de responder de maneira mais assertiva às perguntas dos usuários, e a associação de threads garantiu que as respostas se mantivessem dentro do contexto da conversa. Observamos uma melhora significativa na fluidez e relevância das respostas, especialmente quando o usuário interagia de maneira contínua, sem precisar repetir informações.

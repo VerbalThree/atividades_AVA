@@ -1,0 +1,83 @@
+let ballX, ballY;  // Posições da bola
+let ballSpeedX = 3, ballSpeedY = 3;  // Velocidade da bola
+let paddle1Y, paddle2Y;  // Posições dos paddles
+const paddleHeight = 80, paddleWidth = 10;  // Tamanho dos paddles
+let player1Score = 0, player2Score = 0;  // Placar
+const paddleSpeed = 5;  // Velocidade dos paddles
+
+function setup() {
+  createCanvas(600, 400);
+  initGame();
+}
+
+function draw() {
+  background(0);
+  drawBall();
+  moveBall();
+  checkBallCollisions();
+  checkScore();
+  drawPaddles();
+  handlePaddleControls();
+  drawScore();
+}
+
+function initGame() {
+  ballX = width / 2;
+  ballY = height / 2;
+  paddle1Y = (height - paddleHeight) / 2;
+  paddle2Y = (height - paddleHeight) / 2;
+}
+
+function drawBall() {
+  fill(255);
+  ellipse(ballX, ballY, 15, 15);
+}
+
+function moveBall() {
+  ballX += ballSpeedX;
+  ballY += ballSpeedY;
+}
+
+function checkBallCollisions() {
+  // Colisão com bordas superior e inferior
+  if (ballY < 0 || ballY > height) ballSpeedY *= -1;
+
+  // Colisão com os paddles
+  if (ballX < 20 && ballY > paddle1Y && ballY < paddle1Y + paddleHeight) ballSpeedX *= -1;
+  if (ballX > width - 20 && ballY > paddle2Y && ballY < paddle2Y + paddleHeight) ballSpeedX *= -1;
+}
+
+function checkScore() {
+  if (ballX < 0) {
+    player2Score++;
+    resetBall();
+  } else if (ballX > width) {
+    player1Score++;
+    resetBall();
+  }
+}
+
+function drawPaddles() {
+  rect(10, paddle1Y, paddleWidth, paddleHeight);
+  rect(width - 20, paddle2Y, paddleWidth, paddleHeight);
+}
+
+function handlePaddleControls() {
+  if (keyIsDown(87)) paddle1Y = max(0, paddle1Y - paddleSpeed);  // Tecla 'W'
+  if (keyIsDown(83)) paddle1Y = min(height - paddleHeight, paddle1Y + paddleSpeed);  // Tecla 'S'
+  if (keyIsDown(UP_ARROW)) paddle2Y = max(0, paddle2Y - paddleSpeed);  // Seta para cima
+  if (keyIsDown(DOWN_ARROW)) paddle2Y = min(height - paddleHeight, paddle2Y + paddleSpeed);  // Seta para baixo
+}
+
+function drawScore() {
+  textSize(32);
+  textAlign(CENTER);
+  text(player1Score, width / 4, 50);
+  text(player2Score, (3 * width) / 4, 50);
+}
+
+function resetBall() {
+  ballX = width / 2;
+  ballY = height / 2;
+  ballSpeedX *= -1;  // Inverte a direção da bola
+}
