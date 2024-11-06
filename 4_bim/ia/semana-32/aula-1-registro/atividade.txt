@@ -1,0 +1,74 @@
+# Importação das bibliotecas necessárias
+import json
+
+# Simulação de personas
+class Persona:
+    def __init__(self, name, tone, preferences):
+        self.name = name
+        self.tone = tone
+        self.preferences = preferences
+
+# Gestão de arquivos e metadados
+class FileManager:
+    def __init__(self):
+        self.files = {}
+
+    def upload_file(self, file_name, content):
+        self.files[file_name] = content
+
+    def retrieve_file(self, file_name):
+        return self.files.get(file_name, "Arquivo não encontrado.")
+
+# Função para execução de ações avançadas
+def external_function_call(action, data):
+    if action == "process_data":
+        return f"Processando os dados: {data}"
+    elif action == "calculate":
+        return f"Cálculo realizado: {sum(data)}"
+    return "Ação desconhecida."
+
+# Chatbot básico com integração de personas e ferramentas
+class ChatBot:
+    def __init__(self, persona, file_manager):
+        self.persona = persona
+        self.file_manager = file_manager
+
+    def interact(self, user_input):
+        # Interação personalizada baseada na persona
+        response = f"{self.persona.name} diz ({self.persona.tone}): "
+        response += f"Você disse: {user_input}. "
+        
+        # Processamento de comandos de arquivo
+        if user_input.lower().startswith("upload"):
+            file_name, content = user_input.split(" ")[1], "conteúdo do arquivo"
+            self.file_manager.upload_file(file_name, content)
+            response += f"Arquivo {file_name} carregado."
+        
+        elif user_input.lower().startswith("retrieve"):
+            file_name = user_input.split(" ")[1]
+            file_content = self.file_manager.retrieve_file(file_name)
+            response += f"Conteúdo do arquivo {file_name}: {file_content}."
+        
+        # Chamada de funções externas
+        elif user_input.lower().startswith("execute"):
+            action, data = user_input.split(" ")[1], [1, 2, 3]  # Exemplo simples de dados
+            response += external_function_call(action, data)
+        
+        return response
+
+# Instanciando objetos
+persona = Persona(name="Alice", tone="Amigável", preferences="Respostas curtas e diretas.")
+file_manager = FileManager()
+
+# Criação do chatbot
+chatbot = ChatBot(persona, file_manager)
+
+# Simulação de interação
+user_input = "Upload Documento1"
+print(chatbot.interact(user_input))
+
+user_input = "Retrieve Documento1"
+print(chatbot.interact(user_input))
+
+user_input = "Execute process_data"
+print(chatbot.interact(user_input))

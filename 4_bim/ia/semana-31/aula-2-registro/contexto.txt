@@ -1,0 +1,28 @@
+
+
+Analisando viés em imagens geradas por IA
+
+Nesta atividade, você irá trabalhar em grupos para explorar e analisar imagens geradas por inteligência artificial, com o objetivo de identificar possíveis vieses presentes nessas imagens. Você irá examinar características como idade, gênero, raça, ocupação e outros fatores que possam influenciar a representação nas imagens.
+	
+
+Reprodução - SITE 112, [s.d.]. Disponível em: https://site112.com/gerador-imagem-lorem-ipsum. Acesso em: 29 ago. 2024.
+
+DISCUSSÃO EM GRUPO
+
+Dividam-se em pequenos grupos e discutam sobre possíveis vieses em imagens geradas por IA. Considerem características como idade, gênero, raça e ocupação.
+
+ANÁLISE DA IMAGEM
+
+Acessem o site This Person Does Not Exist e gerem uma imagem. Analisem-na cuidadosamente, observando todos os detalhes. Em seguida, identifiquem possíveis vieses com base nas características observadas.
+
+APRESENTAÇÃO
+
+Cada grupo deve preparar sua análise em uma apresentação no PowerPoint e apresentá-la para a turma, destacando os vieses identificados e justificando suas conclusões.
+
+DISCUSSÃO EM SALA
+
+Após as apresentações, participem de uma discussão geral sobre os vieses identificados. Debatam a importância de reconhecer e abordar esses vieses na tecnologia.
+
+ENTREGA
+
+A apresentação deve ser enviada no AVA.

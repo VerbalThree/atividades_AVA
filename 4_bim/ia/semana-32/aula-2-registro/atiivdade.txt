@@ -1,0 +1,48 @@
+--- Implementação 
+
+# tools_ecomart.py
+
+from datetime import datetime
+
+# Função para validar código promocional
+def validar_codigo_promocional(argumentos):
+    codigo = argumentos.get('codigo_promocional')
+    validade = argumentos.get('data_validade')
+    
+    # Exemplo de lista de códigos válidos
+    codigos_validos = ["PROMO2024", "DISCOUNT50", "FRETEGRATIS"]
+    
+    # Verifica validade
+    if codigo in codigos_validos:
+        validade_obj = datetime.strptime(validade, "%Y-%m-%d")
+        if validade_obj >= datetime.now():
+            return f"O código {codigo} é válido até {validade}."
+        else:
+            return f"O código {codigo} expirou em {validade}."
+    else:
+        return f"O código {codigo} não é válido."
+
+
+--- integração
+
+# app.py
+from tools_ecomart import validar_codigo_promocional
+
+# Função do chatbot
+def chatbot_resposta(pergunta):
+    if "validar código" in pergunta:
+        codigo = pergunta.split()[-1]  # Supondo que o código promocional está no final da pergunta
+        argumentos = {
+            "codigo_promocional": codigo,
+            "data_validade": "2024-12-31"  # Exemplo de data de validade
+        }
+        resposta = validar_codigo_promocional(argumentos)
+        return resposta
+    return "Desculpe, não entendi a sua pergunta."
+
+
+--- Testes
+
+Teste 1: Inserir código válido e verificar resposta de "válido até".
+Teste 2: Inserir código expirado e verificar resposta de "expirado".
+Teste 3: Inserir código inválido e verificar resposta de "não é válido".
