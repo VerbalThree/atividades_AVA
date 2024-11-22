@@ -1,0 +1,36 @@
+Contrato Ágil para um sistema de gerenciamento de tarefas personalizado
+
+
+
+
+Inter Partes:
+
+Contratante: [Maria Augusta Siqueira]
+
+Contratada: [duckduckteam]
+
+Gerente de Projeto: [Felipe Pereira Batista]
+
+
+
+Objetivo do Contrato:
+
+Desenvolver um sistema de gerenciamento de tarefas personalizado.
+
+
+
+Escopo Inicial
+
+Funcionalidades previstas na primeira versão:
+
+Criar novas tarefas com campos para: título, descrição, prioridade, data de vencimento, responsável, etiquetas e anexos.
+Editar tarefas a qualquer momento, atualizando título, descrição, prioridade, data de vencimento, responsável e etiquetas.
+Organizar tarefas em listas, projetos e pastas.
+
+Filtrar tarefas por responsável, prioridade, data de vencimento, projeto, pasta e etiquetas.
+
+Reordenar tarefas dentro de listas, projetos e pastas.
+
+Atribuir tarefas a um ou mais responsáveis.
+
+Notificar responsáveis sobre tarefas atribuídas ou alterações efetuadas nelas.

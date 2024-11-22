@@ -1,0 +1,63 @@
+Tarefa 1: Implementação do sistema de autenticação
+
+Esforço
+
+Um sistema de autenticação geralmente envolve muito esforço pois é necessário implementar ferramentas como login, cadastro e recuperação de senha, além de haver integração com o banco de dados.
+
+Complexidade
+
+O nível de complexidade é alta pois é necessário implementar diversas técnicas para criar um sistema seguro.
+
+Incerteza
+
+Mesmo que o sistema de autenticação tenha um caminho bem definido, pode haver incertezas na escolhas de tecnologias.
+
+Tamanho da Camisa: G
+
+Tarefa 2: Desenvolvimento da interface do usuário (UI):
+
+Esforço
+
+A desenvolvimento para a interface do usuário exige muito esforço, pois é necessário criar uma interface que atenda as necessidades do mercado e além disso fácil de se criar.
+
+Complexidade
+
+A complexidade é alta, pois é necessário criar uma interface resposiva e que funcione para diferentes dispositivos.
+
+Incerteza
+
+O nível de incerteza é baixa, pois as diretrizes de design são bem estabelecidas ,
+
+Tamanho da Camisa: G
+
+Tarefa 3: Implementação do sistema de notificações
+
+Esforço
+
+Essa tarefa não exige muito esforço.
+
+Complexidade
+
+A complexidade pode variar, pois pode haver notificações em tempo real, além de atribuir a elas alguns eventos como prazos atualizações, etc.
+
+Incerteza
+
+A incerteza é baixa, pois pode haver alguns desafios na implementação da sincronização em tempo real ou na personalização dos atributos.
+
+Tamanho da Camisa:  M
+
+Tarefa 4: Desenvolvimento da funcionalidade de priorização de tarefas
+
+Esforço
+
+O esforço é considerável para essa tafefa, pois envolve a criação de uma lógica inteira e a integração com a interface do usuário.
+
+Complexidade
+
+A complexidade é média a alta, pois é necessário criar uma lógica de priorização eficiente, que pode ter desafios durante a criação dela.
+
+Incerteza
+
+A incerteza pode ser média, pois a lógica de priorização precisa ser fácil de se usar, o que pode exigir ajustes.
+
+Tamanho da Camisa: M
