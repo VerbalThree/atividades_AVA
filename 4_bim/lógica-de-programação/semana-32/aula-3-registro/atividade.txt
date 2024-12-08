@@ -1,0 +1,30 @@
+Olá,
+
+Agradeço pela sua dúvida sobre a subtração de matrizes e como ela pode ser aplicada em um ambiente corporativo, especificamente para comparar o desempenho de vendas entre dois trimestres diferentes.
+
+A subtração de matrizes segue a mesma lógica da soma: duas matrizes com dimensões compatíveis (ou seja, mesmas linhas e colunas) podem ser subtraídas elemento por elemento. No caso de comparar o desempenho de vendas entre dois trimestres, podemos representar os dados de vendas em matrizes, onde cada linha pode representar um produto ou uma categoria, e as colunas representam os meses ou períodos dentro do trimestre.
+
+Por exemplo:
+
+    Matriz A (Vendas do 1º trimestre):
+
+[100, 120, 150]  (Janeiro, Fevereiro, Março)
+
+Matriz B (Vendas do 2º trimestre):
+
+    [110, 130, 140]  (Abril, Maio, Junho)
+
+A subtração das duas matrizes (A - B) nos dará a diferença de vendas entre os trimestres:
+
+Matriz Resultado (Diferença de Vendas):
+[100-110, 120-130, 150-140]
+[ -10, -10, 10]
+
+Neste exemplo, a subtração revela que, no primeiro trimestre, as vendas foram menores em Janeiro e Fevereiro, mas superiores em Março em comparação com o segundo trimestre.
+
+Em um ambiente corporativo, isso pode ser útil para realizar análises detalhadas sobre o desempenho de vendas em diferentes períodos. A subtração de matrizes pode ajudar a identificar variações de desempenho entre meses, entender o crescimento ou queda nas vendas e tomar decisões mais informadas sobre estratégias de vendas, marketing e estoque.
+
+Caso precise de mais esclarecimentos, estou à disposição.
+
+Atenciosamente,
+Felipe Pereira

@@ -1,0 +1,27 @@
+1. Contexto: Estamos desenvolvendo um aplicativo de fitness, com lançamento agendado para daqui a dois meses. Surgiram desafios inesperados que afetam o cronograma e a qualidade do produto. Além disso, há preocupações sobre a promoção e alcance do público-alvo.
+
+2. Objetivo da Reunião: Discutir e tomar decisões sobre os desafios, utilizando os princípios do Management 3.0: Transparência, Adaptação e Liderança Distribuída.
+
+3. Discussão do Problema e Decisões Tomadas:
+
+    Transparência: Todos os membros compartilham abertamente os problemas encontrados, como dificuldades no desenvolvimento e em atrasos no cronograma. Informações sobre o progresso do app, como funcionalidades concluídas e pendentes, são compartilhadas com total clareza.
+
+    Adaptação: Identificamos os principais desafios e propomos soluções adaptativas:
+        Repriorizar funcionalidades para garantir as mais essenciais para o lançamento.
+        Ajustar o cronograma de desenvolvimento com base nas dificuldades técnicas, estabelecendo novas metas mais realistas.
+        Adotar mais testes automatizados para garantir a qualidade sem afetar tanto o tempo de desenvolvimento.
+
+    Liderança Distribuída: Todos os membros do grupo têm voz ativa na definição das prioridades e das soluções. Cada pessoa assume responsabilidades específicas, de acordo com suas habilidades, empoderando a equipe a tomar decisões autônomas. Além disso, todos são incentivados a sugerir melhorias no processo e contribuir para as decisões de marketing.
+
+4. Plano de Ação:
+
+    Desenvolvimento: Ajustar o cronograma de entrega com uma nova divisão de tarefas e definir um ciclo de revisões semanais.
+    Qualidade: Reforçar o uso de testes automatizados e fazer sessões de revisão do código para evitar problemas de última hora.
+    Marketing e Divulgação: Planejar uma campanha de pré-lançamento focada nas redes sociais e parcerias com influenciadores de fitness, criando expectativa no público-alvo.
+    Feedback e Ajustes: Monitorar continuamente o progresso e fazer ajustes rápidos conforme necessário.
+
+5. Conclusão e Aplicação dos Princípios do Management 3.0:
+
+    Transparência: Facilitou a identificação dos problemas reais e permitiu que todos soubessem onde estavam as dificuldades.
+    Adaptação: Permitimos que o plano fosse ajustado conforme os novos desafios, promovendo flexibilidade no trabalho da equipe.
+    Liderança Distribuída: Cada membro contribuiu de forma significativa, e as responsabilidades foram distribuídas para aproveitar as competências individuais.

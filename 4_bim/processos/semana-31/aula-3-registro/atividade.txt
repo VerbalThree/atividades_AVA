@@ -1,0 +1,19 @@
+Funcionalidades Propostas para o Sistema:
+
+    Emissão de bilhetes eletrônicos
+    Cadastro de usuários
+    Planejamento de rotas
+    Rastreamento de veículos em tempo real
+    Pagamento eletrônico de tarifas
+    Notificações em tempo real sobre atrasos
+    Feedback dos usuários
+    Relatórios de desempenho do sistema
+
+Passos da Atividade:
+
+    Estimativa de Story Points:
+    Use a técnica de Planning Poker para estimar os Story Points de cada funcionalidade (com base na complexidade e esforço necessário).
+
+    Cálculo do Throughput:
+    Com a média histórica da equipe (por exemplo, 20 Story Points por semana), calcule quantas funcionalidades podem ser entregues em uma semana.
+        Exemplo: Se a funcionalidade A tem 5 Story Points e a média semanal é 20, então A será concluída em 0,25 semana (5 / 20).

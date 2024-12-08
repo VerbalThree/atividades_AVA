@@ -1,0 +1,19 @@
+Desenvolvimento da Atividade:
+
+Divididos em dois grupos, nossa equipe realizou entrevistas com especialistas, com um grupo atuando como facilitadores e o outro assumindo papéis de especialistas, como donos de restaurantes, clientes e entregadores do aplicativo "FoodSpeed".
+
+1. Entrevistas com Donos de Restaurantes: Os donos de restaurantes nos forneceram valiosas informações sobre as dificuldades enfrentadas ao gerenciar os pedidos. Eles relataram que a maior dificuldade está na falta de comunicação em tempo real sobre o status do pedido e mudanças nas solicitações dos clientes. Além disso, muitos mencionaram que o sistema de reservas de entregadores nem sempre é eficiente, resultando em atrasos. Para melhorar a experiência, sugeriram um sistema de notificação mais fluido para informar sobre o andamento do pedido.
+
+2. Entrevistas com Clientes: Os clientes expressaram frustração com a interface do aplicativo, mencionando que, muitas vezes, a navegação entre os menus de pedidos e pagamento não é intuitiva. Também houve uma solicitação comum para mais opções de personalização nas preferências de entrega, como escolher uma faixa de horário mais flexível ou rastrear a localização do entregador. Os usuários destacaram a importância de uma experiência de compra mais rápida e transparente.
+
+3. Entrevistas com Entregadores: Os entregadores, por sua vez, apontaram desafios no uso do aplicativo, como o processo de confirmação de entrega, que nem sempre é claro. Eles mencionaram que, muitas vezes, o aplicativo não fornece informações detalhadas sobre os endereços, o que leva a erros durante as entregas. Também sugeriram melhorias no sistema de localização e roteirização, para otimizar o tempo de entrega e evitar congestionamentos.
+
+Reflexões e Insights:
+
+A atividade proporcionou uma compreensão profunda dos desafios enfrentados pelos diferentes usuários do aplicativo. Foi possível identificar pontos críticos em cada jornada de usuário que impactam diretamente a experiência geral.
+
+    Para os donos de restaurantes, a necessidade de uma comunicação mais eficiente e a melhoria no gerenciamento de entregadores se destacaram como pontos de melhoria prioritários.
+    Para os clientes, a simplificação da navegação e a personalização das entregas foram aspectos fundamentais para uma experiência mais satisfatória.
+    Para os entregadores, a clareza nas informações de entrega e melhorias no sistema de roteirização se mostraram essenciais para otimizar o processo.
+
+Esses insights servirão como base para a criação de soluções mais eficazes durante o design sprint, com o objetivo de melhorar a experiência do usuário em todas as etapas do processo de entrega no "FoodSpeed".

@@ -1,0 +1,21 @@
+Funcionalidades Propostas para o Sistema:
+
+    Cadastro de usuários
+    Planejamento de rotas
+    Rastreamento de veículos em tempo real
+    Pagamento eletrônico de tarifas
+    Notificações em tempo real sobre atrasos e mudanças nas rotas
+    Feedback dos usuários sobre a qualidade do serviço
+
+Estimativa de Business Value:
+Para cada funcionalidade, os grupos discutem e atribuem um valor de 1 a 10 baseado no impacto que a funcionalidade tem para o sistema e os usuários. Fatores como a experiência do usuário, eficiência operacional e vantagem competitiva devem ser considerados.
+
+Exemplo de Estimativa de Business Value:
+
+    Cadastro de usuários: 8 (Essencial para uso do sistema, mas não diretamente relacionado ao transporte em si).
+    Planejamento de rotas: 9 (Impacta diretamente a operação e a eficiência do transporte público).
+
+Planning Poker:
+
+    Cada membro do grupo escolhe uma carta com um número da Sequência de Fibonacci (0, 1, 2, 3, 5, 8, 13, etc.) para estimar o esforço necessário para desenvolver cada funcionalidade.
+    Se houver grandes discrepâncias nas estimativas, o grupo discute as razões e chega a um consenso.

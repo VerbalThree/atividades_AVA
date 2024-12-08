@@ -1,0 +1,26 @@
+1. Contextualização: A empresa adotou métodos ágeis, especificamente XP (Extreme Programming), para desenvolver um aplicativo móvel. O objetivo é melhorar a eficiência e a colaboração.
+
+2. Papéis Escolhidos:
+
+    Programador: Responsável por escrever o código do aplicativo e garantir a qualidade técnica.
+    Cliente: Define os requisitos e prioriza as funcionalidades mais importantes para o negócio.
+    Coach: Facilita a comunicação e garante que as práticas XP sejam seguidas durante o desenvolvimento.
+    Tester: Foca na criação de testes automatizados e na validação do aplicativo.
+    Tracker: Monitora o progresso do projeto, coleta métricas e mantém o time focado nos prazos.
+
+3. Brainstorming das Tarefas:
+
+    Definir os requisitos do aplicativo.
+    Escrever código e implementar funcionalidades.
+    Testar e garantir a qualidade do código.
+    Monitorar o progresso e ajustes no cronograma.
+    Garantir a comunicação contínua entre todos os membros.
+
+4. Explicação e Colaboração:
+
+    Programador será responsável pela implementação técnica, apoiado por testes automatizados criados pelo Tester.
+    O Cliente fornecerá feedback constante sobre as funcionalidades para garantir alinhamento com as necessidades do negócio.
+    O Coach garantirá que todos os processos de XP, como programação em par e revisões de código, sejam seguidos para melhorar a colaboração.
+    O Tracker acompanhará as métricas do projeto, como tempo de entrega e progresso das tarefas, ajustando conforme necessário.
+
+Objetivo: Trabalhar de maneira colaborativa, realizando entregas frequentes e de qualidade, mantendo a comunicação fluida e a adaptação constante às mudanças.

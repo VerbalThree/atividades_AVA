@@ -1,0 +1,23 @@
+Histórias de Usuário para a Sprint:
+
+    Como usuário, quero adicionar novas tarefas para gerenciar meu tempo.
+    Como usuário, quero editar tarefas existentes para atualizar informações.
+    Como usuário, quero excluir tarefas concluídas para manter minha lista organizada.
+
+Definição dos Critérios de Aceitação:
+
+    História 1: Adicionar novas tarefas
+        O usuário pode acessar a tela de adição a partir da página inicial.
+        O usuário pode inserir título e descrição da tarefa.
+        A tarefa é salva e aparece na lista de tarefas.
+        O sistema valida que o título não está vazio antes de salvar.
+
+    História 2: Editar tarefas existentes
+        O usuário pode acessar a tarefa a partir da lista de tarefas.
+        O usuário pode alterar o título e a descrição da tarefa.
+        O sistema salva as alterações após confirmação.
+
+    História 3: Excluir tarefas concluídas
+        O usuário pode acessar a opção de exclusão ao visualizar a tarefa.
+        O sistema confirma a exclusão antes de removê-la.
+        A tarefa desaparece da lista após ser excluída.

@@ -1,0 +1,20 @@
+Prezados,
+
+Para abordar o desafio da alocação de recursos humanos, propomos o uso de matrizes para organizar e otimizar as informações:
+
+    Uma matriz para mapear disponibilidade dos funcionários.
+    Uma matriz para registrar habilidades e competências.
+    Uma matriz para detalhar as necessidades dos projetos.
+
+Combinando essas matrizes, conseguimos criar uma visão clara da compatibilidade entre os recursos disponíveis e os requisitos dos projetos, usando operações matemáticas como multiplicação de matrizes.
+
+Essa abordagem sistemática oferece:
+
+    Identificação precisa dos melhores profissionais para cada projeto.
+    Redução de tempo ocioso e sobrecarga de trabalho.
+    Melhor alinhamento estratégico entre competências e demandas.
+
+Estamos à disposição para detalhar o método e adaptá-lo conforme necessário.
+
+Atenciosamente,
+Felipe Pereira

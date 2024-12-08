@@ -1,0 +1,34 @@
+1. Definições e Características:
+
+    Projeto:
+        Definição: Um projeto é um esforço temporário para criar um produto, serviço ou resultado único.
+        Características:
+            Objetivos específicos e prazos definidos.
+            Recursos limitados.
+            Foco na entrega de um resultado final.
+            Exemplo: Desenvolvimento de um novo aplicativo.
+    Produto:
+        Definição: Um produto é algo contínuo e que passa por melhorias e ajustes constantes ao longo do tempo.
+        Características:
+            Ciclo de vida contínuo.
+            Envolvimento constante do cliente.
+            Necessidade de manutenção e aprimoramento.
+            Exemplo: Software de gerenciamento de tarefas.
+
+2. Comparação:
+Aspecto	Projeto	Produto
+Objetivo	Criar algo único com um prazo definido.	Criar algo contínuo que evolui com o tempo.
+Recursos	Recursos limitados e definidos.	Recursos distribuídos ao longo de seu ciclo.
+Prazos	Prazo fixo para a conclusão.	Não há um prazo definido, é um ciclo contínuo.
+Envolvimento do Cliente	Interação mais pontual, conforme o andamento.	Envolvimento contínuo para melhorias constantes.
+
+3. Vantagens e Desvantagens:
+
+    Projetos:
+        Vantagens: Conclusão clara, objetivos definidos, entrega pontual.
+        Desvantagens: Foco limitado, não há evolução contínua.
+    Produtos:
+        Vantagens: Melhoria contínua, adaptação constante às necessidades do mercado.
+        Desvantagens: Ciclo de vida mais longo, demanda constante de recursos.
+
+4. Conclusão: A principal diferença entre projetos e produtos é que um projeto tem um prazo e objetivo definidos, enquanto um produto exige um ciclo contínuo de desenvolvimento e evolução. A escolha entre os dois depende do tipo de entrega e do foco da empresa.

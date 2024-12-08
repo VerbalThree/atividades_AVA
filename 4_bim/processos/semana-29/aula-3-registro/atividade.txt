@@ -1,0 +1,22 @@
+1. Contextualização: A empresa XY adotou o Scrum para melhorar a eficiência e colaboração no desenvolvimento de um aplicativo móvel.
+
+2. Papéis Escolhidos:
+
+    Product Owner: Responsável por definir e priorizar as funcionalidades do aplicativo, garantindo que o produto atenda às necessidades do usuário.
+    Scrum Master: Facilita a aplicação das práticas do Scrum, remove obstáculos e garante que a equipe siga o processo ágil corretamente.
+    Equipe de Desenvolvimento: Responsável por construir o aplicativo, escrever o código e implementar as funcionalidades de acordo com as prioridades definidas.
+
+3. Brainstorming das Tarefas:
+
+    Levantamento dos requisitos do aplicativo.
+    Desenvolvimento das funcionalidades de cada sprint.
+    Testes de qualidade e validação de cada entrega.
+    Revisão do backlog do produto.
+    Planejamento das sprints.
+    Reuniões diárias para acompanhamento de progresso.
+
+4. Explicação e Colaboração:
+
+    O Product Owner é escolhido para garantir que as funcionalidades sejam priorizadas corretamente, de acordo com as necessidades do cliente.
+    O Scrum Master facilitará o processo ágil e removerá impedimentos, assegurando que a equipe se concentre nas entregas.
+    A Equipe de Desenvolvimento trabalhará de maneira colaborativa, dividindo as tarefas entre os membros, com foco em entregas rápidas e de alta qualidade.

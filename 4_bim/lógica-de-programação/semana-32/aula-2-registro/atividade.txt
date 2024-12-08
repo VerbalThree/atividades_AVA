@@ -1,0 +1,14 @@
+Olá,
+
+Agradeço pela sua dúvida sobre a soma de matrizes. Vou explicar de forma concisa o motivo pelo qual é necessário verificar a compatibilidade das dimensões antes de realizar a soma.
+
+Para somar duas matrizes, elas precisam ter as mesmas dimensões. Isso significa que o número de linhas e o número de colunas de ambas as matrizes deve ser idêntico. A razão para isso é que, na operação de soma de matrizes, somamos os elementos que ocupam a mesma posição em ambas as matrizes. Ou seja, o elemento na posição (i, j) de uma matriz será somado ao elemento da mesma posição (i, j) na outra matriz.
+
+Se as dimensões forem diferentes, o número de elementos não será o mesmo, o que torna impossível realizar a soma de maneira consistente. Por exemplo, se você tentar somar uma matriz 2x3 (com 2 linhas e 3 colunas) com uma matriz 3x2 (com 3 linhas e 2 colunas), não haverá uma correspondência direta entre os elementos nas mesmas posições, logo, a operação não pode ser executada.
+
+Portanto, a compatibilidade das dimensões é fundamental para garantir que a operação de soma seja válida e que cada elemento de uma matriz tenha um elemento correspondente na outra.
+
+Espero que essa explicação tenha esclarecido a dúvida. Caso tenha mais perguntas, fico à disposição.
+
+Atenciosamente,
+Felipe Pereira
